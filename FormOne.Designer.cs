@@ -33,21 +33,22 @@
             ButtonTextTwo = new System.Windows.Forms.Button();
             ButtonClear = new System.Windows.Forms.Button();
             ButtonThree = new System.Windows.Forms.Button();
+            ButtonFour = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // RichTextBoxOne
             // 
             RichTextBoxOne.Location = new System.Drawing.Point(12, 12);
             RichTextBoxOne.Name = "RichTextBoxOne";
-            RichTextBoxOne.Size = new System.Drawing.Size(299, 250);
+            RichTextBoxOne.Size = new System.Drawing.Size(352, 250);
             RichTextBoxOne.TabIndex = 0;
             RichTextBoxOne.Text = "";
             // 
             // ButtonTextOne
             // 
-            ButtonTextOne.Location = new System.Drawing.Point(12, 274);
+            ButtonTextOne.Location = new System.Drawing.Point(12, 268);
             ButtonTextOne.Name = "ButtonTextOne";
-            ButtonTextOne.Size = new System.Drawing.Size(50, 25);
+            ButtonTextOne.Size = new System.Drawing.Size(45, 25);
             ButtonTextOne.TabIndex = 1;
             ButtonTextOne.Text = "Текст 1";
             ButtonTextOne.UseVisualStyleBackColor = true;
@@ -55,9 +56,9 @@
             // 
             // ButtonTextTwo
             // 
-            ButtonTextTwo.Location = new System.Drawing.Point(68, 274);
+            ButtonTextTwo.Location = new System.Drawing.Point(63, 268);
             ButtonTextTwo.Name = "ButtonTextTwo";
-            ButtonTextTwo.Size = new System.Drawing.Size(55, 25);
+            ButtonTextTwo.Size = new System.Drawing.Size(53, 25);
             ButtonTextTwo.TabIndex = 2;
             ButtonTextTwo.Text = "Текст 2";
             ButtonTextTwo.UseVisualStyleBackColor = true;
@@ -65,9 +66,9 @@
             // 
             // ButtonClear
             // 
-            ButtonClear.Location = new System.Drawing.Point(236, 275);
+            ButtonClear.Location = new System.Drawing.Point(296, 269);
             ButtonClear.Name = "ButtonClear";
-            ButtonClear.Size = new System.Drawing.Size(75, 23);
+            ButtonClear.Size = new System.Drawing.Size(68, 23);
             ButtonClear.TabIndex = 3;
             ButtonClear.Text = "Очистить";
             ButtonClear.UseVisualStyleBackColor = true;
@@ -75,19 +76,30 @@
             // 
             // ButtonThree
             // 
-            ButtonThree.Location = new System.Drawing.Point(129, 274);
+            ButtonThree.Location = new System.Drawing.Point(122, 268);
             ButtonThree.Name = "ButtonThree";
-            ButtonThree.Size = new System.Drawing.Size(55, 25);
+            ButtonThree.Size = new System.Drawing.Size(53, 25);
             ButtonThree.TabIndex = 4;
             ButtonThree.Text = "Текст 3";
             ButtonThree.UseVisualStyleBackColor = true;
             ButtonThree.Click += ButtonThree_Click;
             // 
+            // ButtonFour
+            // 
+            ButtonFour.Location = new System.Drawing.Point(181, 268);
+            ButtonFour.Name = "ButtonFour";
+            ButtonFour.Size = new System.Drawing.Size(53, 25);
+            ButtonFour.TabIndex = 5;
+            ButtonFour.Text = "Текст 4";
+            ButtonFour.UseVisualStyleBackColor = true;
+            ButtonFour.Click += ButtonFour_Click;
+            // 
             // FormOne
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(323, 307);
+            ClientSize = new System.Drawing.Size(376, 301);
+            Controls.Add(ButtonFour);
             Controls.Add(ButtonThree);
             Controls.Add(ButtonClear);
             Controls.Add(ButtonTextTwo);
@@ -106,5 +118,6 @@
         private System.Windows.Forms.Button ButtonTextTwo;
         private System.Windows.Forms.Button ButtonClear;
         private System.Windows.Forms.Button ButtonThree;
+        private System.Windows.Forms.Button ButtonFour;
     }
 }
