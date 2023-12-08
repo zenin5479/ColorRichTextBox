@@ -30,19 +30,21 @@
         {
             RichTextBoxOne = new System.Windows.Forms.RichTextBox();
             ButtonTextOne = new System.Windows.Forms.Button();
+            ButtonTextTwo = new System.Windows.Forms.Button();
+            ButtonClear = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // RichTextBoxOne
             // 
             RichTextBoxOne.Location = new System.Drawing.Point(12, 12);
             RichTextBoxOne.Name = "RichTextBoxOne";
-            RichTextBoxOne.Size = new System.Drawing.Size(300, 250);
+            RichTextBoxOne.Size = new System.Drawing.Size(299, 250);
             RichTextBoxOne.TabIndex = 0;
             RichTextBoxOne.Text = "";
             // 
             // ButtonTextOne
             // 
-            ButtonTextOne.Location = new System.Drawing.Point(26, 274);
+            ButtonTextOne.Location = new System.Drawing.Point(12, 274);
             ButtonTextOne.Name = "ButtonTextOne";
             ButtonTextOne.Size = new System.Drawing.Size(50, 25);
             ButtonTextOne.TabIndex = 1;
@@ -50,11 +52,33 @@
             ButtonTextOne.UseVisualStyleBackColor = true;
             ButtonTextOne.Click += ButtonTextOne_Click;
             // 
+            // ButtonTextTwo
+            // 
+            ButtonTextTwo.Location = new System.Drawing.Point(256, 274);
+            ButtonTextTwo.Name = "ButtonTextTwo";
+            ButtonTextTwo.Size = new System.Drawing.Size(55, 25);
+            ButtonTextTwo.TabIndex = 2;
+            ButtonTextTwo.Text = "Текст 2";
+            ButtonTextTwo.UseVisualStyleBackColor = true;
+            ButtonTextTwo.Click += ButtonTextTwo_Click;
+            // 
+            // ButtonClear
+            // 
+            ButtonClear.Location = new System.Drawing.Point(120, 276);
+            ButtonClear.Name = "ButtonClear";
+            ButtonClear.Size = new System.Drawing.Size(75, 23);
+            ButtonClear.TabIndex = 3;
+            ButtonClear.Text = "Очистить";
+            ButtonClear.UseVisualStyleBackColor = true;
+            ButtonClear.Click += ButtonClear_Click;
+            // 
             // FormOne
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(323, 361);
+            ClientSize = new System.Drawing.Size(323, 307);
+            Controls.Add(ButtonClear);
+            Controls.Add(ButtonTextTwo);
             Controls.Add(ButtonTextOne);
             Controls.Add(RichTextBoxOne);
             Name = "FormOne";
@@ -67,5 +91,7 @@
 
         private System.Windows.Forms.RichTextBox RichTextBoxOne;
         private System.Windows.Forms.Button ButtonTextOne;
+        private System.Windows.Forms.Button ButtonTextTwo;
+        private System.Windows.Forms.Button ButtonClear;
     }
 }

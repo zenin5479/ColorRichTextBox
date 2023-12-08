@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace ColorRichTextBox
@@ -19,11 +20,34 @@ namespace ColorRichTextBox
             RichTextBoxOne.ScrollToCaret();
         }
 
-        private void ButtonTextOne_Click(object sender, System.EventArgs e)
+        // Вывод текста через метод Savelog
+        private void ButtonTextOne_Click(object sender, EventArgs e)
         {
             Savelog("Текст: " + "Анн Голон, Серж Голон. Анжелика и король.\n", Color.Red);
         }
 
-        private delegate void SavelogDelegate(string tolog, Color color);
+        // Вывод текста через метод SavelogColor класса RichTextBoxColor
+        private void ButtonTextTwo_Click(object sender, EventArgs e)
+        {
+            RichTextBoxOne.SavelogColor("Текст: " + "Анн Голон, Серж Голон. Анжелика и король.\n", Color.Fuchsia);
+        }
+
+        // Очистить RichTextBox
+        private void ButtonClear_Click(object sender, EventArgs e)
+        {
+            RichTextBoxOne.Clear();
+        }
+
+        //private delegate void SavelogDelegate(string tolog, Color color);
+    }
+
+    public static class RichTextBoxColor
+    {
+        public static void SavelogColor(this RichTextBox box, string text, Color color)
+        {
+            box.SelectionColor = color;
+            box.AppendText(text);
+            box.ScrollToCaret();
+        }
     }
 }
