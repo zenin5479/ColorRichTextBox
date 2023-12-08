@@ -54,7 +54,7 @@
             // 
             // ButtonTextTwo
             // 
-            ButtonTextTwo.Location = new System.Drawing.Point(256, 274);
+            ButtonTextTwo.Location = new System.Drawing.Point(68, 274);
             ButtonTextTwo.Name = "ButtonTextTwo";
             ButtonTextTwo.Size = new System.Drawing.Size(55, 25);
             ButtonTextTwo.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             // ButtonClear
             // 
-            ButtonClear.Location = new System.Drawing.Point(120, 276);
+            ButtonClear.Location = new System.Drawing.Point(236, 275);
             ButtonClear.Name = "ButtonClear";
             ButtonClear.Size = new System.Drawing.Size(75, 23);
             ButtonClear.TabIndex = 3;

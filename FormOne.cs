@@ -23,13 +23,13 @@ namespace ColorRichTextBox
         // Вывод текста через метод Savelog
         private void ButtonTextOne_Click(object sender, EventArgs e)
         {
-            Savelog("Текст: " + "Анн Голон, Серж Голон. Анжелика и король.\n", Color.Red);
+            Savelog("Вывод текста через метод Savelog.\n", Color.Red);
         }
 
         // Вывод текста через метод SavelogColor класса RichTextBoxColor
         private void ButtonTextTwo_Click(object sender, EventArgs e)
         {
-            RichTextBoxOne.SavelogColor("Текст: " + "Анн Голон, Серж Голон. Анжелика и король.\n", Color.Fuchsia);
+            RichTextBoxOne.SavelogColor("Вывод текста через метод SavelogColor класса RichTextBoxColor.\n", Color.Fuchsia);
         }
 
         // Очистить RichTextBox
