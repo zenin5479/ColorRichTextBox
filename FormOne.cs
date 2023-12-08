@@ -60,9 +60,9 @@ namespace ColorRichTextBox
     {
         public static void SavelogColor(this RichTextBox box, string text, Color color)
         {
-            box.SelectionColor = color;
-            box.AppendText(text);
-            box.ScrollToCaret();
+            box.SelectionColor = color; // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора.
+            box.AppendText(text); // Добавляет текст в конец текущего текста в текстовом поле.
+            box.ScrollToCaret(); // Прокручивает содержимое элемента управления до текущей позиции курсора.
         }
 
         public static void SavelogColor2(this RichTextBox rtb, string text, Color color, Font font, bool isNewLine = false)
@@ -70,10 +70,9 @@ namespace ColorRichTextBox
             rtb.SuspendLayout(); // Временно приостанавливает логику макета для элемента управления.
             rtb.SelectionStart = rtb.TextLength; // Получает или задает начальную позицию текста, выбранного в текстовом поле.
             rtb.SelectionLength = 0; // Получает или задает число символов, выделенных в элементе управления.
-            rtb.SelectionColor = color;
+            rtb.SelectionColor = color; // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора.
             rtb.SelectionFont = font; // Получает или задает цвет текущего текстового выделения или места вставки.
-            rtb.AppendText(isNewLine ? $"{text}{Environment.NewLine}" : text); // Добавляет текст в конец текущего текста в текстовом поле.
-            rtb.SelectionColor = rtb.ForeColor; // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора.
+            rtb.AppendText(isNewLine ? $"{text}{Environment.NewLine}" : text); // Добавляет текст в конец текущего текста в текстовом поле и переходит на новую строку
             rtb.ScrollToCaret(); // Прокручивает содержимое элемента управления до текущей позиции курсора.
             rtb.ResumeLayout(); // Возобновляет обычную логику макета.
         }
@@ -83,11 +82,10 @@ namespace ColorRichTextBox
             rtb.SuspendLayout(); // Временно приостанавливает логику макета для элемента управления.
             rtb.SelectionStart = rtb.TextLength; // Получает или задает начальную позицию текста, выбранного в текстовом поле.
             rtb.SelectionLength = 0; // Получает или задает число символов, выделенных в элементе управления.
-            rtb.SelectionColor = color;
+            rtb.SelectionColor = color; // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора.
             Font font = new Font("Tahoma", 10, FontStyle.Regular);
             rtb.SelectionFont = font; // Получает или задает цвет текущего текстового выделения или места вставки.
-            rtb.AppendText($"{text}{Environment.NewLine}"); // Добавляет текст в конец текущего текста в текстовом поле.
-            rtb.SelectionColor = rtb.ForeColor; // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора.
+            rtb.AppendText(text); // Добавляет текст в конец текущего текста в текстовом поле.
             rtb.ScrollToCaret(); // Прокручивает содержимое элемента управления до текущей позиции курсора.
             rtb.ResumeLayout(); // Возобновляет обычную логику макета.
         }
