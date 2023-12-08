@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             RichTextBoxOne = new System.Windows.Forms.RichTextBox();
+            ButtonTextOne = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // RichTextBoxOne
@@ -39,11 +40,22 @@
             RichTextBoxOne.TabIndex = 0;
             RichTextBoxOne.Text = "";
             // 
+            // ButtonTextOne
+            // 
+            ButtonTextOne.Location = new System.Drawing.Point(26, 274);
+            ButtonTextOne.Name = "ButtonTextOne";
+            ButtonTextOne.Size = new System.Drawing.Size(50, 25);
+            ButtonTextOne.TabIndex = 1;
+            ButtonTextOne.Text = "Текст 1";
+            ButtonTextOne.UseVisualStyleBackColor = true;
+            ButtonTextOne.Click += ButtonTextOne_Click;
+            // 
             // FormOne
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(323, 361);
+            Controls.Add(ButtonTextOne);
             Controls.Add(RichTextBoxOne);
             Name = "FormOne";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -54,5 +66,6 @@
         #endregion
 
         private System.Windows.Forms.RichTextBox RichTextBoxOne;
+        private System.Windows.Forms.Button ButtonTextOne;
     }
 }
