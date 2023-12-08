@@ -32,6 +32,7 @@
             ButtonTextOne = new System.Windows.Forms.Button();
             ButtonTextTwo = new System.Windows.Forms.Button();
             ButtonClear = new System.Windows.Forms.Button();
+            ButtonThree = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // RichTextBoxOne
@@ -72,11 +73,22 @@
             ButtonClear.UseVisualStyleBackColor = true;
             ButtonClear.Click += ButtonClear_Click;
             // 
+            // ButtonThree
+            // 
+            ButtonThree.Location = new System.Drawing.Point(129, 274);
+            ButtonThree.Name = "ButtonThree";
+            ButtonThree.Size = new System.Drawing.Size(55, 25);
+            ButtonThree.TabIndex = 4;
+            ButtonThree.Text = "Текст 3";
+            ButtonThree.UseVisualStyleBackColor = true;
+            ButtonThree.Click += ButtonThree_Click;
+            // 
             // FormOne
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(323, 307);
+            Controls.Add(ButtonThree);
             Controls.Add(ButtonClear);
             Controls.Add(ButtonTextTwo);
             Controls.Add(ButtonTextOne);
@@ -93,5 +105,6 @@
         private System.Windows.Forms.Button ButtonTextOne;
         private System.Windows.Forms.Button ButtonTextTwo;
         private System.Windows.Forms.Button ButtonClear;
+        private System.Windows.Forms.Button ButtonThree;
     }
 }

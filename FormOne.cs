@@ -11,15 +11,6 @@ namespace ColorRichTextBox
             InitializeComponent();
         }
 
-
-        // Запись логов
-        private void Savelog(string tolog, Color color)
-        {
-            RichTextBoxOne.SelectionColor = color;
-            RichTextBoxOne.AppendText(tolog);
-            RichTextBoxOne.ScrollToCaret();
-        }
-
         // Вывод текста через метод Savelog
         private void ButtonTextOne_Click(object sender, EventArgs e)
         {
@@ -29,7 +20,13 @@ namespace ColorRichTextBox
         // Вывод текста через метод SavelogColor класса RichTextBoxColor
         private void ButtonTextTwo_Click(object sender, EventArgs e)
         {
-            RichTextBoxOne.SavelogColor("Вывод текста через метод SavelogColor класса RichTextBoxColor.\n", Color.Fuchsia);
+            RichTextBoxOne.SavelogColor("Вывод текста через метод SavelogColor класса RichTextBoxColor.\n",
+                Color.Fuchsia);
+        }
+
+        private void ButtonThree_Click(object sender, EventArgs e)
+        {
+
         }
 
         // Очистить RichTextBox
@@ -38,7 +35,13 @@ namespace ColorRichTextBox
             RichTextBoxOne.Clear();
         }
 
-        //private delegate void SavelogDelegate(string tolog, Color color);
+        // Запись логов
+        private void Savelog(string tolog, Color color)
+        {
+            RichTextBoxOne.SelectionColor = color;
+            RichTextBoxOne.AppendText(tolog);
+            RichTextBoxOne.ScrollToCaret();
+        }
     }
 
     public static class RichTextBoxColor
@@ -48,6 +51,16 @@ namespace ColorRichTextBox
             box.SelectionColor = color;
             box.AppendText(text);
             box.ScrollToCaret();
+        }
+    }
+
+    public static class RichTextBoxColor2
+    {
+        private static void Savelog(string tolog, Color color)
+        {
+            //RichTextBoxOne.SelectionColor = color;
+            //RichTextBoxOne.AppendText(tolog);
+            //RichTextBoxOne.ScrollToCaret();
         }
     }
 }
