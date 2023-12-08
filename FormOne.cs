@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using static System.Net.Mime.MediaTypeNames;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ColorRichTextBox
 {
@@ -13,16 +11,16 @@ namespace ColorRichTextBox
             InitializeComponent();
         }
 
-        // Вывод текста через метод Savelog
+        // Вывод текста через метод RichTextBoxColor
         private void ButtonTextOne_Click(object sender, EventArgs e)
         {
-            Savelog("Вывод текста через метод Savelog.\n", Color.Red);
+            RichTextBoxColor("Вывод текста через метод RichTextBoxColor.\n", Color.Red);
         }
 
         // Вывод текста через метод SavelogColor класса RichTextBoxColor
         private void ButtonTextTwo_Click(object sender, EventArgs e)
         {
-            RichTextBoxOne.SavelogColor("Вывод текста через метод SavelogColor класса RichTextBoxColor.\n",
+            RichTextBoxOne.TextColor("Вывод текста через метод TextColor класса RichTextBoxColor.\n",
                 Color.Fuchsia);
         }
 
@@ -30,14 +28,14 @@ namespace ColorRichTextBox
         private void ButtonThree_Click(object sender, EventArgs e)
         {
             Font font = new Font("Tahoma", 10, FontStyle.Regular);
-            RichTextBoxOne.SavelogColor2("Вывод текста через метод SavelogColor2 класса RichTextBoxColor.\n",
+            RichTextBoxOne.TextColor2("Вывод текста через метод TextColor2 класса RichTextBoxColor.\n",
                 Color.Black, font, false);
         }
 
         // Вывод текста через метод SavelogColor3 класса RichTextBoxColor
         private void ButtonFour_Click(object sender, EventArgs e)
         {
-            RichTextBoxOne.SavelogColor3("Вывод текста через метод SavelogColor3 класса RichTextBoxColor.\n",
+            RichTextBoxOne.TextColor3("Вывод текста через метод TextColor3 класса RichTextBoxColor.\n",
                 Color.Chocolate);
         }
 
@@ -47,8 +45,8 @@ namespace ColorRichTextBox
             RichTextBoxOne.Clear();
         }
 
-        // Метод записи в RichTextBox
-        private void Savelog(string tolog, Color color)
+        // Метод вывода текста в RichTextBox
+        private void RichTextBoxColor(string tolog, Color color)
         {
             RichTextBoxOne.SelectionColor = color;
             RichTextBoxOne.AppendText(tolog);
@@ -58,14 +56,14 @@ namespace ColorRichTextBox
 
     public static class RichTextBoxColor
     {
-        public static void SavelogColor(this RichTextBox box, string text, Color color)
+        public static void TextColor(this RichTextBox box, string text, Color color)
         {
             box.SelectionColor = color; // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора.
             box.AppendText(text); // Добавляет текст в конец текущего текста в текстовом поле.
             box.ScrollToCaret(); // Прокручивает содержимое элемента управления до текущей позиции курсора.
         }
 
-        public static void SavelogColor2(this RichTextBox rtb, string text, Color color, Font font, bool isNewLine = false)
+        public static void TextColor2(this RichTextBox rtb, string text, Color color, Font font, bool isNewLine = false)
         {
             rtb.SuspendLayout(); // Временно приостанавливает логику макета для элемента управления.
             rtb.SelectionStart = rtb.TextLength; // Получает или задает начальную позицию текста, выбранного в текстовом поле.
@@ -77,7 +75,7 @@ namespace ColorRichTextBox
             rtb.ResumeLayout(); // Возобновляет обычную логику макета.
         }
 
-        public static void SavelogColor3(this RichTextBox rtb, string text, Color color)
+        public static void TextColor3(this RichTextBox rtb, string text, Color color)
         {
             rtb.SuspendLayout(); // Временно приостанавливает логику макета для элемента управления.
             rtb.SelectionStart = rtb.TextLength; // Получает или задает начальную позицию текста, выбранного в текстовом поле.
