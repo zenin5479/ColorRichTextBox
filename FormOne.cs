@@ -29,7 +29,7 @@ namespace ColorRichTextBox
         {
             Font font = new Font("Tahoma", 10, FontStyle.Regular);
             RichTextBoxOne.TextColor2("Вывод текста через метод TextColor2 класса RichTextBoxColor.\n",
-                Color.Black, font, false);
+                Color.Black, font);
         }
 
         // Вывод текста через метод SavelogColor3 класса RichTextBoxColor
