@@ -6,55 +6,55 @@ namespace ColorRichTextBox
 {
    public static class RichTextBoxColor
    {
-      public static void TextColorOne(RichTextBox box, string text, Color color)
+      public static void TextColorOne(RichTextBox richTextBox, string text, Color color)
       {
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
-         box.SelectionColor = color;
+         richTextBox.SelectionColor = color;
          // Добавляет текст в конец текущего текста в текстовом поле
-         box.AppendText(text);
+         richTextBox.AppendText(text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
-         box.ScrollToCaret();
+         richTextBox.ScrollToCaret();
       }
 
-      public static void TextColorTwo(RichTextBox rtb, string text, Color color, Font font, bool isNewLine = false)
+      public static void TextColorTwo(RichTextBox richTextBox, string text, Color color, Font font, bool isNewLine = false)
       {
          // Временно приостанавливает логику макета для элемента управления
-         rtb.SuspendLayout();
+         richTextBox.SuspendLayout();
          // Получает или задает начальную позицию текста, выбранного в текстовом поле
-         rtb.SelectionStart = rtb.TextLength;
+         richTextBox.SelectionStart = richTextBox.TextLength;
          // Получает или задает число символов, выделенных в элементе управления
-         rtb.SelectionLength = 0;
+         richTextBox.SelectionLength = 0;
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
-         rtb.SelectionColor = color;
+         richTextBox.SelectionColor = color;
          // Получает или задает цвет текущего текстового выделения или места вставки
-         rtb.SelectionFont = font;
+         richTextBox.SelectionFont = font;
          // Добавляет текст в конец текущего текста в текстовом поле и переходит на новую строку
-         rtb.AppendText(isNewLine ? string.Format("{0}{1}", text, Environment.NewLine) : text);
+         richTextBox.AppendText(isNewLine ? string.Format("{0}{1}", text, Environment.NewLine) : text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
-         rtb.ScrollToCaret();
+         richTextBox.ScrollToCaret();
          // Возобновляет обычную логику макета
-         rtb.ResumeLayout();
+         richTextBox.ResumeLayout();
       }
 
-      public static void TextColorThree(RichTextBox rtb, string text, Color color)
+      public static void TextColorThree(RichTextBox richTextBox, string text, Color color)
       {
          // Временно приостанавливает логику макета для элемента управления
-         rtb.SuspendLayout();
+         richTextBox.SuspendLayout();
          // Получает или задает начальную позицию текста, выбранного в текстовом поле
-         rtb.SelectionStart = rtb.TextLength;
+         richTextBox.SelectionStart = richTextBox.TextLength;
          // Получает или задает число символов, выделенных в элементе управления
-         rtb.SelectionLength = 0;
+         richTextBox.SelectionLength = 0;
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
-         rtb.SelectionColor = color;
+         richTextBox.SelectionColor = color;
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
          // Получает или задает цвет текущего текстового выделения или места вставки
-         rtb.SelectionFont = font;
+         richTextBox.SelectionFont = font;
          // Добавляет текст в конец текущего текста в текстовом поле
-         rtb.AppendText(text);
+         richTextBox.AppendText(text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
-         rtb.ScrollToCaret();
+         richTextBox.ScrollToCaret();
          // Возобновляет обычную логику макета
-         rtb.ResumeLayout();
+         richTextBox.ResumeLayout();
       }
    }
 }
