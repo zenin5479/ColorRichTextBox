@@ -42,7 +42,7 @@ namespace ColorRichTextBox
          RichTextBoxOne.Clear();
       }
 
-      // Метод вывода текста в RichTextBox
+      // Метод вывода текста разных цветов RichTextBox
       private void RichTextBoxColor(string tolog, Color color)
       {
          RichTextBoxOne.SelectionColor = color;
