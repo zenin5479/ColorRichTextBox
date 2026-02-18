@@ -8,9 +8,12 @@ namespace ColorRichTextBox
    {
       public static void TextColorOne(RichTextBox box, string text, Color color)
       {
-         box.SelectionColor = color; // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
-         box.AppendText(text); // Добавляет текст в конец текущего текста в текстовом поле
-         box.ScrollToCaret(); // Прокручивает содержимое элемента управления до текущей позиции курсора
+         // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
+         box.SelectionColor = color;
+         // Добавляет текст в конец текущего текста в текстовом поле
+         box.AppendText(text);
+         // Прокручивает содержимое элемента управления до текущей позиции курсора
+         box.ScrollToCaret();
       }
 
       public static void TextColorTwo(RichTextBox rtb, string text, Color color, Font font, bool isNewLine = false)
