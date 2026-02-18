@@ -13,7 +13,7 @@ namespace ColorRichTextBox
          box.ScrollToCaret(); // Прокручивает содержимое элемента управления до текущей позиции курсора.
       }
 
-      public static void TextColor2(this RichTextBox rtb, string text, Color color, Font font, bool isNewLine = false)
+      public static void TextColor2(RichTextBox rtb, string text, Color color, Font font, bool isNewLine = false)
       {
          rtb.SuspendLayout(); // Временно приостанавливает логику макета для элемента управления.
          rtb.SelectionStart = rtb.TextLength; // Получает или задает начальную позицию текста, выбранного в текстовом поле.
@@ -25,7 +25,7 @@ namespace ColorRichTextBox
          rtb.ResumeLayout(); // Возобновляет обычную логику макета.
       }
 
-      public static void TextColor3(this RichTextBox rtb, string text, Color color)
+      public static void TextColor3(RichTextBox rtb, string text, Color color)
       {
          rtb.SuspendLayout(); // Временно приостанавливает логику макета для элемента управления.
          rtb.SelectionStart = rtb.TextLength; // Получает или задает начальную позицию текста, выбранного в текстовом поле.
