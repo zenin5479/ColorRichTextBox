@@ -33,8 +33,7 @@ namespace ColorRichTextBox
         // Вывод текста через метод TextColor3 класса RichTextBoxColor
         private void ButtonFour_Click(object sender, EventArgs e)
         {
-            RichTextBoxOne.TextColor3("Вывод текста через метод TextColor3 класса RichTextBoxColor.\n",
-                Color.Chocolate);
+            RichTextBoxOne.TextColor3("Вывод текста через метод TextColor3 класса RichTextBoxColor.\n", Color.Chocolate);
         }
 
         // Очистить RichTextBox
