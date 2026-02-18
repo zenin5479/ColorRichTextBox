@@ -33,7 +33,7 @@
          ButtonTextTwo = new System.Windows.Forms.Button();
          ButtonClear = new System.Windows.Forms.Button();
          ButtonTextThree = new System.Windows.Forms.Button();
-         ButtonFour = new System.Windows.Forms.Button();
+         ButtonTextFour = new System.Windows.Forms.Button();
          SuspendLayout();
          // 
          // RichTextBoxOne
@@ -84,22 +84,22 @@
          ButtonTextThree.UseVisualStyleBackColor = true;
          ButtonTextThree.Click += ButtonThree_Click;
          // 
-         // ButtonFour
+         // ButtonTextFour
          // 
-         ButtonFour.Location = new System.Drawing.Point(181, 268);
-         ButtonFour.Name = "ButtonFour";
-         ButtonFour.Size = new System.Drawing.Size(53, 25);
-         ButtonFour.TabIndex = 5;
-         ButtonFour.Text = "Текст 4";
-         ButtonFour.UseVisualStyleBackColor = true;
-         ButtonFour.Click += ButtonFour_Click;
+         ButtonTextFour.Location = new System.Drawing.Point(181, 268);
+         ButtonTextFour.Name = "ButtonTextFour";
+         ButtonTextFour.Size = new System.Drawing.Size(53, 25);
+         ButtonTextFour.TabIndex = 5;
+         ButtonTextFour.Text = "Текст 4";
+         ButtonTextFour.UseVisualStyleBackColor = true;
+         ButtonTextFour.Click += ButtonFour_Click;
          // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(376, 301);
-         Controls.Add(ButtonFour);
+         Controls.Add(ButtonTextFour);
          Controls.Add(ButtonTextThree);
          Controls.Add(ButtonClear);
          Controls.Add(ButtonTextTwo);
@@ -118,6 +118,6 @@
       private System.Windows.Forms.Button ButtonTextTwo;
       private System.Windows.Forms.Button ButtonClear;
       private System.Windows.Forms.Button ButtonTextThree;
-      private System.Windows.Forms.Button ButtonFour;
+      private System.Windows.Forms.Button ButtonTextFour;
    }
 }
