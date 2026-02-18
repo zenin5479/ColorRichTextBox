@@ -20,7 +20,7 @@ namespace ColorRichTextBox
         // Вывод текста через метод TextColor класса RichTextBoxColor
         private void ButtonTextTwo_Click(object sender, EventArgs e)
         {
-            RichTextBoxOne.TextColor("Вывод текста через метод TextColor класса RichTextBoxColor.\n", Color.Fuchsia);
+            ColorRichTextBox.RichTextBoxColor.TextColor(RichTextBoxOne, "Вывод текста через метод TextColor класса RichTextBoxColor.\n", Color.Fuchsia);
         }
 
         // Вывод текста через метод TextColor2 класса RichTextBoxColor
