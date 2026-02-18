@@ -92,7 +92,7 @@
          ButtonTextFour.TabIndex = 5;
          ButtonTextFour.Text = "Текст 4";
          ButtonTextFour.UseVisualStyleBackColor = true;
-         ButtonTextFour.Click += ButtonFour_Click;
+         ButtonTextFour.Click += ButtonTextFour_Click;
          // 
          // FormOne
          // 
