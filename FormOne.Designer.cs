@@ -82,7 +82,7 @@
          ButtonTextThree.TabIndex = 4;
          ButtonTextThree.Text = "Текст 3";
          ButtonTextThree.UseVisualStyleBackColor = true;
-         ButtonTextThree.Click += ButtonThree_Click;
+         ButtonTextThree.Click += ButtonTextThree_Click;
          // 
          // ButtonTextFour
          // 

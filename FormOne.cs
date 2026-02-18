@@ -24,7 +24,7 @@ namespace ColorRichTextBox
       }
 
       // Вывод текста через метод TextColor2 класса RichTextBoxColor
-      private void ButtonThree_Click(object sender, EventArgs e)
+      private void ButtonTextThree_Click(object sender, EventArgs e)
       {
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
          ColorRichTextBox.RichTextBoxColor.TextColor2(RichTextBoxOne, "Вывод текста через метод TextColor2 класса RichTextBoxColor.\n", Color.Black, font);
