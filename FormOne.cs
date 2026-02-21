@@ -32,7 +32,7 @@ namespace ColorRichTextBox
             "Вывод текста через метод TextColorTwo класса RichTextBoxColor.\n", Color.Black, font);
       }
 
-      // Вывод текста разных цветов через метод TextColorThree класса RichTextBoxColor
+      // Вывод текста заданного цвета через метод TextColorThree класса RichTextBoxColor
       private void ButtonTextFour_Click(object sender, EventArgs e)
       {
          ColorRichTextBox.RichTextBoxColor.TextColorThree(RichTextBoxOne,
