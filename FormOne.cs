@@ -17,7 +17,7 @@ namespace ColorRichTextBox
          RichTextBoxColor("Вывод текста через метод RichTextBoxColor.\n", Color.Red);
       }
 
-      // Вывод текста разных цветов через метод TextColorOne класса RichTextBoxColor
+      // Вывод текста заданного цвета через метод TextColorOne класса RichTextBoxColor
       private void ButtonTextTwo_Click(object sender, EventArgs e)
       {
          ColorRichTextBox.RichTextBoxColor.TextColorOne(RichTextBoxOne,
