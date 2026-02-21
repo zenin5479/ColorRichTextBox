@@ -20,7 +20,7 @@ namespace ColorRichTextBox
       // Вывод текста заданного цвета через метод TextColorOne класса RichTextBoxColor
       private void ButtonTextTwo_Click(object sender, EventArgs e)
       {
-         ColorRichTextBox.RichTextBoxColor.TextColorOne(RichTextBoxOne,
+         RichTextBoxColorMethod.TextColorOne(RichTextBoxOne,
             "Вывод текста через метод TextColorOne класса RichTextBoxColor.\n", Color.Fuchsia);
       }
 
@@ -28,14 +28,14 @@ namespace ColorRichTextBox
       private void ButtonTextThree_Click(object sender, EventArgs e)
       {
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
-         ColorRichTextBox.RichTextBoxColor.TextColorTwo(RichTextBoxOne,
+         ColorRichTextBox.RichTextBoxColorMethod.TextColorTwo(RichTextBoxOne,
             "Вывод текста через метод TextColorTwo класса RichTextBoxColor.\n", Color.Black, font);
       }
 
       // Вывод текста заданного цвета через метод TextColorThree класса RichTextBoxColor
       private void ButtonTextFour_Click(object sender, EventArgs e)
       {
-         ColorRichTextBox.RichTextBoxColor.TextColorThree(RichTextBoxOne,
+         ColorRichTextBox.RichTextBoxColorMethod.TextColorThree(RichTextBoxOne,
             "Вывод текста через метод TextColorThree класса RichTextBoxColor.\n", Color.Chocolate);
       }
 

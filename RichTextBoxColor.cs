@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace ColorRichTextBox
 {
-   public class RichTextBoxColor
+   public class RichTextBoxColorMethod
    {
       public void TextColorOne(RichTextBox richTextBox, string text, Color color)
       {
@@ -16,7 +16,7 @@ namespace ColorRichTextBox
          richTextBox.ScrollToCaret();
       }
 
-      public static void TextColorTwo(RichTextBox richTextBox, string text, Color color, Font font, bool isNewLine = false)
+      public void TextColorTwo(RichTextBox richTextBox, string text, Color color, Font font, bool isNewLine = false)
       {
          // Временно приостанавливает логику макета для элемента управления
          richTextBox.SuspendLayout();
@@ -36,7 +36,7 @@ namespace ColorRichTextBox
          richTextBox.ResumeLayout();
       }
 
-      public static void TextColorThree(RichTextBox richTextBox, string text, Color color)
+      public void TextColorThree(RichTextBox richTextBox, string text, Color color)
       {
          // Временно приостанавливает логику макета для элемента управления
          richTextBox.SuspendLayout();
