@@ -24,7 +24,7 @@ namespace ColorRichTextBox
             "Вывод текста через метод TextColorOne класса RichTextBoxColor.\n", Color.Fuchsia);
       }
 
-      // Вывод текста разных цветов через метод TextColorTwo класса RichTextBoxColor
+      // Вывод текста заданного цвета через метод TextColorTwo класса RichTextBoxColor
       private void ButtonTextThree_Click(object sender, EventArgs e)
       {
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
