@@ -30,7 +30,7 @@ namespace ColorRichTextBox
       private void ButtonTextThree_Click(object sender, EventArgs e)
       {
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
-         ColorRichTextBox.RichTextBoxColorMethod.TextColorTwo(RichTextBoxOne,
+         RichTextBoxColorMethod.TextColorTwo(RichTextBoxOne,
             "Вывод текста через метод TextColorTwo класса RichTextBoxColor.\n", Color.Black, font);
       }
 
