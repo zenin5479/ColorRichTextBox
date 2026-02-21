@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace ColorRichTextBox
 {
-   public static class RichTextBoxColor
+   public class RichTextBoxColor
    {
       public static void TextColorOne(RichTextBox richTextBox, string text, Color color)
       {
