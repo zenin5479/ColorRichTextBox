@@ -6,7 +6,7 @@ namespace ColorRichTextBox
 {
    public class RichTextBoxColorMethod
    {
-      public void TextColorOne(RichTextBox richTextBox, string text, Color color)
+      public static void TextColorOne(RichTextBox richTextBox, string text, Color color)
       {
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
          richTextBox.SelectionColor = color;
@@ -16,7 +16,7 @@ namespace ColorRichTextBox
          richTextBox.ScrollToCaret();
       }
 
-      public void TextColorTwo(RichTextBox richTextBox, string text, Color color, Font font, bool isNewLine = false)
+      public static void TextColorTwo(RichTextBox richTextBox, string text, Color color, Font font, bool isNewLine = false)
       {
          // Временно приостанавливает логику макета для элемента управления
          richTextBox.SuspendLayout();
@@ -36,7 +36,7 @@ namespace ColorRichTextBox
          richTextBox.ResumeLayout();
       }
 
-      public void TextColorThree(RichTextBox richTextBox, string text, Color color)
+      public static void TextColorThree(RichTextBox richTextBox, string text, Color color)
       {
          // Временно приостанавливает логику макета для элемента управления
          richTextBox.SuspendLayout();
