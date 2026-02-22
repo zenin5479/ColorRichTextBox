@@ -17,6 +17,7 @@ namespace ColorRichTextBox
          richTextBox.ScrollToCaret();
       }
 
+      // Метод, добавляет текст заданного цвета в RichTextBox
       public void TextColorTwo(RichTextBox richTextBox, string text, Color color, Font font)
       {
          //// Временно приостанавливает логику макета для элемента управления
