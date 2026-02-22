@@ -35,12 +35,18 @@
          ButtonTextThree = new System.Windows.Forms.Button();
          ButtonTextFour = new System.Windows.Forms.Button();
          GroupBoxMethod = new System.Windows.Forms.GroupBox();
+         groupBox1 = new System.Windows.Forms.GroupBox();
+         button1 = new System.Windows.Forms.Button();
+         button2 = new System.Windows.Forms.Button();
+         button3 = new System.Windows.Forms.Button();
+         button4 = new System.Windows.Forms.Button();
          GroupBoxMethod.SuspendLayout();
+         groupBox1.SuspendLayout();
          SuspendLayout();
          // 
          // RichTextBoxOne
          // 
-         RichTextBoxOne.Location = new System.Drawing.Point(12, 118);
+         RichTextBoxOne.Location = new System.Drawing.Point(12, 76);
          RichTextBoxOne.Name = "RichTextBoxOne";
          RichTextBoxOne.Size = new System.Drawing.Size(381, 250);
          RichTextBoxOne.TabIndex = 0;
@@ -102,18 +108,68 @@
          GroupBoxMethod.Controls.Add(ButtonTextFour);
          GroupBoxMethod.Controls.Add(ButtonTextTwo);
          GroupBoxMethod.Controls.Add(ButtonTextThree);
-         GroupBoxMethod.Location = new System.Drawing.Point(12, 12);
+         GroupBoxMethod.Location = new System.Drawing.Point(12, 332);
          GroupBoxMethod.Name = "GroupBoxMethod";
-         GroupBoxMethod.Size = new System.Drawing.Size(381, 100);
+         GroupBoxMethod.Size = new System.Drawing.Size(381, 58);
          GroupBoxMethod.TabIndex = 6;
          GroupBoxMethod.TabStop = false;
          GroupBoxMethod.Text = "Передача ссылок в класс на элементы управления через метод";
+         // 
+         // groupBox1
+         // 
+         groupBox1.Controls.Add(button1);
+         groupBox1.Controls.Add(button2);
+         groupBox1.Controls.Add(button3);
+         groupBox1.Controls.Add(button4);
+         groupBox1.Location = new System.Drawing.Point(12, 12);
+         groupBox1.Name = "groupBox1";
+         groupBox1.Size = new System.Drawing.Size(410, 58);
+         groupBox1.TabIndex = 7;
+         groupBox1.TabStop = false;
+         groupBox1.Text = "Передача ссылок в класс на элементы управления через конструктор";
+         // 
+         // button1
+         // 
+         button1.Location = new System.Drawing.Point(6, 22);
+         button1.Name = "button1";
+         button1.Size = new System.Drawing.Size(70, 25);
+         button1.TabIndex = 1;
+         button1.Text = "Вариант 1";
+         button1.UseVisualStyleBackColor = true;
+         // 
+         // button2
+         // 
+         button2.Location = new System.Drawing.Point(234, 22);
+         button2.Name = "button2";
+         button2.Size = new System.Drawing.Size(70, 25);
+         button2.TabIndex = 5;
+         button2.Text = "Вариант 4";
+         button2.UseVisualStyleBackColor = true;
+         // 
+         // button3
+         // 
+         button3.Location = new System.Drawing.Point(82, 22);
+         button3.Name = "button3";
+         button3.Size = new System.Drawing.Size(70, 25);
+         button3.TabIndex = 2;
+         button3.Text = "Вариант 2";
+         button3.UseVisualStyleBackColor = true;
+         // 
+         // button4
+         // 
+         button4.Location = new System.Drawing.Point(158, 22);
+         button4.Name = "button4";
+         button4.Size = new System.Drawing.Size(70, 25);
+         button4.TabIndex = 4;
+         button4.Text = "Вариант 3";
+         button4.UseVisualStyleBackColor = true;
          // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(845, 538);
+         Controls.Add(groupBox1);
          Controls.Add(GroupBoxMethod);
          Controls.Add(ButtonClear);
          Controls.Add(RichTextBoxOne);
@@ -121,6 +177,7 @@
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Цвет текста в строке";
          GroupBoxMethod.ResumeLayout(false);
+         groupBox1.ResumeLayout(false);
          ResumeLayout(false);
       }
 
@@ -133,5 +190,10 @@
       private System.Windows.Forms.Button ButtonTextThree;
       private System.Windows.Forms.Button ButtonTextFour;
       private System.Windows.Forms.GroupBox GroupBoxMethod;
+      private System.Windows.Forms.GroupBox groupBox1;
+      private System.Windows.Forms.Button button1;
+      private System.Windows.Forms.Button button2;
+      private System.Windows.Forms.Button button3;
+      private System.Windows.Forms.Button button4;
    }
 }
