@@ -43,8 +43,7 @@ namespace ColorRichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе
          RichTextBoxColorMethod method = new RichTextBoxColorMethod();
 
-         RichTextBoxColorMethod.TextColorThree(RichTextBoxOne,
-            "Вывод текста через метод TextColorThree класса RichTextBoxColor.\n", Color.Chocolate);
+         method.TextColorThree(RichTextBoxOne, "Вывод текста через метод TextColorThree класса RichTextBoxColor.\n", Color.Chocolate);
       }
 
       // Очистить RichTextBox

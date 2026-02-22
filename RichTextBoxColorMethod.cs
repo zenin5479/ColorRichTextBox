@@ -36,7 +36,7 @@ namespace ColorRichTextBox
          richTextBox.ResumeLayout();
       }
 
-      public static void TextColorThree(RichTextBox richTextBox, string text, Color color)
+      public void TextColorThree(RichTextBox richTextBox, string text, Color color)
       {
          // Временно приостанавливает логику макета для элемента управления
          richTextBox.SuspendLayout();
