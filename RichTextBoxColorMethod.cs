@@ -6,8 +6,10 @@ namespace ColorRichTextBox
    // Передача ссылок в класс на элементы управления через метод
    public class RichTextBoxColorMethod
    {
-      
-      
+      private TextBox _textBox;
+      private ListBox _listBox;
+      private RichTextBox _richTextBox;
+
       public void TextColorOne(RichTextBox richTextBox, string text, Color color)
       {
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
