@@ -3,8 +3,11 @@ using System.Windows.Forms;
 
 namespace ColorRichTextBox
 {
+   // Передача ссылок в класс на элементы управления через метод
    public class RichTextBoxColorMethod
    {
+      
+      
       public void TextColorOne(RichTextBox richTextBox, string text, Color color)
       {
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
