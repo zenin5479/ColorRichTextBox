@@ -14,7 +14,7 @@ namespace ColorRichTextBox
       // Вывод текста заданного цвета через метод RichTextBoxColor класса ColorRichTextBox
       private void ButtonTextOne_Click(object sender, EventArgs e)
       {
-         RichTextBoxColor("Вывод текста через метод RichTextBoxColor\n", Color.Fuchsia);
+         RichTextBoxColor("Вывод текста через метод RichTextBoxColor класса ColorRichTextBox\n", Color.Fuchsia);
       }
 
       // Вывод текста заданного цвета через метод TextColorOne класса RichTextBoxColorMethod
@@ -23,7 +23,7 @@ namespace ColorRichTextBox
          // Создаём экземпляр класса и передаём ссылку на элемент управления: RichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе
          RichTextBoxColorMethod method = new RichTextBoxColorMethod();
-         method.TextColorTwo(RichTextBoxOne, "Вывод текста через метод TextColorOne класса RichTextBoxColor\n", Color.Red);
+         method.TextColorTwo(RichTextBoxOne, "Вывод текста через метод TextColorTwo класса RichTextBoxColor\n", Color.Red);
       }
 
       // Вывод текста заданного цвета и шрифта через метод TextColorTwo класса RichTextBoxColorMethod
