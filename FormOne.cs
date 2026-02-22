@@ -33,8 +33,7 @@ namespace ColorRichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе
          RichTextBoxColorMethod method = new RichTextBoxColorMethod();
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
-         method.TextColorTwo(RichTextBoxOne,
-            "Вывод текста через метод TextColorTwo класса RichTextBoxColor.\n", Color.Black, font);
+         method.TextColorTwo(RichTextBoxOne, "Вывод текста через метод TextColorTwo класса RichTextBoxColor.\n", Color.Black, font);
       }
 
       // Вывод текста заданного цвета через метод TextColorThree класса RichTextBoxColor
