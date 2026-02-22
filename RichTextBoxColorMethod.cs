@@ -7,7 +7,7 @@ namespace ColorRichTextBox
    public class RichTextBoxColorMethod
    {
       // Метод, добавляет текст заданного цвета в RichTextBox
-      public void TextColorOne(RichTextBox richTextBox, string text, Color color)
+      public void TextColorTwo(RichTextBox richTextBox, string text, Color color)
       {
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
          richTextBox.SelectionColor = color;
