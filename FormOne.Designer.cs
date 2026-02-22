@@ -34,15 +34,15 @@
          ButtonClear = new System.Windows.Forms.Button();
          ButtonTextThree = new System.Windows.Forms.Button();
          ButtonTextFour = new System.Windows.Forms.Button();
-         groupBox1 = new System.Windows.Forms.GroupBox();
-         groupBox1.SuspendLayout();
+         GroupBoxMethod = new System.Windows.Forms.GroupBox();
+         GroupBoxMethod.SuspendLayout();
          SuspendLayout();
          // 
          // RichTextBoxOne
          // 
-         RichTextBoxOne.Location = new System.Drawing.Point(12, 12);
+         RichTextBoxOne.Location = new System.Drawing.Point(12, 118);
          RichTextBoxOne.Name = "RichTextBoxOne";
-         RichTextBoxOne.Size = new System.Drawing.Size(352, 250);
+         RichTextBoxOne.Size = new System.Drawing.Size(381, 250);
          RichTextBoxOne.TabIndex = 0;
          RichTextBoxOne.Text = "";
          // 
@@ -50,25 +50,25 @@
          // 
          ButtonTextOne.Location = new System.Drawing.Point(6, 22);
          ButtonTextOne.Name = "ButtonTextOne";
-         ButtonTextOne.Size = new System.Drawing.Size(45, 25);
+         ButtonTextOne.Size = new System.Drawing.Size(70, 25);
          ButtonTextOne.TabIndex = 1;
-         ButtonTextOne.Text = "Текст 1";
+         ButtonTextOne.Text = "Вариант 1";
          ButtonTextOne.UseVisualStyleBackColor = true;
          ButtonTextOne.Click += ButtonTextOne_Click;
          // 
          // ButtonTextTwo
          // 
-         ButtonTextTwo.Location = new System.Drawing.Point(57, 22);
+         ButtonTextTwo.Location = new System.Drawing.Point(82, 22);
          ButtonTextTwo.Name = "ButtonTextTwo";
-         ButtonTextTwo.Size = new System.Drawing.Size(53, 25);
+         ButtonTextTwo.Size = new System.Drawing.Size(70, 25);
          ButtonTextTwo.TabIndex = 2;
-         ButtonTextTwo.Text = "Текст 2";
+         ButtonTextTwo.Text = "Вариант 2";
          ButtonTextTwo.UseVisualStyleBackColor = true;
          ButtonTextTwo.Click += ButtonTextTwo_Click;
          // 
          // ButtonClear
          // 
-         ButtonClear.Location = new System.Drawing.Point(296, 269);
+         ButtonClear.Location = new System.Drawing.Point(604, 440);
          ButtonClear.Name = "ButtonClear";
          ButtonClear.Size = new System.Drawing.Size(68, 23);
          ButtonClear.TabIndex = 3;
@@ -78,49 +78,49 @@
          // 
          // ButtonTextThree
          // 
-         ButtonTextThree.Location = new System.Drawing.Point(116, 22);
+         ButtonTextThree.Location = new System.Drawing.Point(158, 22);
          ButtonTextThree.Name = "ButtonTextThree";
-         ButtonTextThree.Size = new System.Drawing.Size(53, 25);
+         ButtonTextThree.Size = new System.Drawing.Size(70, 25);
          ButtonTextThree.TabIndex = 4;
-         ButtonTextThree.Text = "Текст 3";
+         ButtonTextThree.Text = "Вариант 3";
          ButtonTextThree.UseVisualStyleBackColor = true;
          ButtonTextThree.Click += ButtonTextThree_Click;
          // 
          // ButtonTextFour
          // 
-         ButtonTextFour.Location = new System.Drawing.Point(6, 53);
+         ButtonTextFour.Location = new System.Drawing.Point(234, 22);
          ButtonTextFour.Name = "ButtonTextFour";
-         ButtonTextFour.Size = new System.Drawing.Size(53, 25);
+         ButtonTextFour.Size = new System.Drawing.Size(70, 25);
          ButtonTextFour.TabIndex = 5;
-         ButtonTextFour.Text = "Текст 4";
+         ButtonTextFour.Text = "Вариант 4";
          ButtonTextFour.UseVisualStyleBackColor = true;
          ButtonTextFour.Click += ButtonTextFour_Click;
          // 
-         // groupBox1
+         // GroupBoxMethod
          // 
-         groupBox1.Controls.Add(ButtonTextOne);
-         groupBox1.Controls.Add(ButtonTextFour);
-         groupBox1.Controls.Add(ButtonTextTwo);
-         groupBox1.Controls.Add(ButtonTextThree);
-         groupBox1.Location = new System.Drawing.Point(426, 173);
-         groupBox1.Name = "groupBox1";
-         groupBox1.Size = new System.Drawing.Size(200, 100);
-         groupBox1.TabIndex = 6;
-         groupBox1.TabStop = false;
-         groupBox1.Text = "groupBox1";
+         GroupBoxMethod.Controls.Add(ButtonTextOne);
+         GroupBoxMethod.Controls.Add(ButtonTextFour);
+         GroupBoxMethod.Controls.Add(ButtonTextTwo);
+         GroupBoxMethod.Controls.Add(ButtonTextThree);
+         GroupBoxMethod.Location = new System.Drawing.Point(12, 12);
+         GroupBoxMethod.Name = "GroupBoxMethod";
+         GroupBoxMethod.Size = new System.Drawing.Size(381, 100);
+         GroupBoxMethod.TabIndex = 6;
+         GroupBoxMethod.TabStop = false;
+         GroupBoxMethod.Text = "Передача ссылок в класс на элементы управления через метод";
          // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(845, 538);
-         Controls.Add(groupBox1);
+         Controls.Add(GroupBoxMethod);
          Controls.Add(ButtonClear);
          Controls.Add(RichTextBoxOne);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Цвет текста в строке";
-         groupBox1.ResumeLayout(false);
+         GroupBoxMethod.ResumeLayout(false);
          ResumeLayout(false);
       }
 
@@ -132,6 +132,6 @@
       private System.Windows.Forms.Button ButtonClear;
       private System.Windows.Forms.Button ButtonTextThree;
       private System.Windows.Forms.Button ButtonTextFour;
-      private System.Windows.Forms.GroupBox groupBox1;
+      private System.Windows.Forms.GroupBox GroupBoxMethod;
    }
 }
