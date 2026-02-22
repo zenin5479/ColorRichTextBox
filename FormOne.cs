@@ -14,7 +14,7 @@ namespace ColorRichTextBox
       // Вывод текста заданного цвета через метод RichTextBoxColor класса ColorRichTextBox
       private void ButtonTextOne_Click(object sender, EventArgs e)
       {
-         RichTextBoxColor("Вывод текста через метод RichTextBoxColor.\n", Color.Fuchsia);
+         RichTextBoxColor("Вывод текста через метод RichTextBoxColor\n", Color.Fuchsia);
       }
 
       // Вывод текста заданного цвета через метод TextColorOne класса RichTextBoxColorMethod
@@ -23,7 +23,7 @@ namespace ColorRichTextBox
          // Создаём экземпляр класса и передаём ссылку на элемент управления: RichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе
          RichTextBoxColorMethod method = new RichTextBoxColorMethod();
-         method.TextColorTwo(RichTextBoxOne, "Вывод текста через метод TextColorOne класса RichTextBoxColor.\n", Color.Red);
+         method.TextColorTwo(RichTextBoxOne, "Вывод текста через метод TextColorOne класса RichTextBoxColor\n", Color.Red);
       }
 
       // Вывод текста заданного цвета и шрифта через метод TextColorTwo класса RichTextBoxColorMethod
@@ -33,7 +33,7 @@ namespace ColorRichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе
          RichTextBoxColorMethod method = new RichTextBoxColorMethod();
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
-         method.TextColorThree(RichTextBoxOne, "Вывод текста через метод TextColorTwo класса RichTextBoxColor.\n", Color.Black, font);
+         method.TextColorThree(RichTextBoxOne, "Вывод текста через метод TextColorTwo класса RichTextBoxColor\n", Color.Black, font);
       }
 
       // Вывод текста заданного цвета через метод TextColorThree класса RichTextBoxColorMethod
@@ -42,7 +42,7 @@ namespace ColorRichTextBox
          // Создаём экземпляр класса и передаём ссылку на элемент управления: RichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе
          RichTextBoxColorMethod method = new RichTextBoxColorMethod();
-         method.TextColorFour(RichTextBoxOne, "Вывод текста через метод TextColorThree класса RichTextBoxColor.\n", Color.Chocolate);
+         method.TextColorFour(RichTextBoxOne, "Вывод текста через метод TextColorThree класса RichTextBoxColor\n", Color.Chocolate);
       }
 
       // Очистить RichTextBox
