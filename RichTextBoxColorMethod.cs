@@ -16,7 +16,7 @@ namespace ColorRichTextBox
          richTextBox.ScrollToCaret();
       }
 
-      public void TextColorTwo(RichTextBox richTextBox, string text, Color color, Font font, bool isNewLine = false)
+      public void TextColorTwo(RichTextBox richTextBox, string text, Color color, Font font)
       {
          // Временно приостанавливает логику макета для элемента управления
          richTextBox.SuspendLayout();
