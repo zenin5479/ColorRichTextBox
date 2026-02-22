@@ -48,7 +48,7 @@
          // 
          RichTextBoxOne.Location = new System.Drawing.Point(12, 76);
          RichTextBoxOne.Name = "RichTextBoxOne";
-         RichTextBoxOne.Size = new System.Drawing.Size(381, 250);
+         RichTextBoxOne.Size = new System.Drawing.Size(410, 250);
          RichTextBoxOne.TabIndex = 0;
          RichTextBoxOne.Text = "";
          // 
@@ -74,7 +74,7 @@
          // 
          // ButtonClear
          // 
-         ButtonClear.Location = new System.Drawing.Point(604, 440);
+         ButtonClear.Location = new System.Drawing.Point(18, 396);
          ButtonClear.Name = "ButtonClear";
          ButtonClear.Size = new System.Drawing.Size(68, 23);
          ButtonClear.TabIndex = 3;
@@ -110,7 +110,7 @@
          GroupBoxMethod.Controls.Add(ButtonTextThree);
          GroupBoxMethod.Location = new System.Drawing.Point(12, 332);
          GroupBoxMethod.Name = "GroupBoxMethod";
-         GroupBoxMethod.Size = new System.Drawing.Size(381, 58);
+         GroupBoxMethod.Size = new System.Drawing.Size(410, 58);
          GroupBoxMethod.TabIndex = 6;
          GroupBoxMethod.TabStop = false;
          GroupBoxMethod.Text = "Передача ссылок в класс на элементы управления через метод";
