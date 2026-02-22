@@ -22,14 +22,16 @@ namespace ColorRichTextBox
       {
          // Создаём экземпляр класса и передаём ссылку на элемент управления: RichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе
-         RichTextBoxColorMethod constructor = new RichTextBoxColorMethod();
-         constructor.TextColorOne(RichTextBoxOne, "Вывод текста через метод TextColorOne класса RichTextBoxColor.\n", Color.Red);
+         RichTextBoxColorMethod Method = new RichTextBoxColorMethod();
+         Method.TextColorOne(RichTextBoxOne, "Вывод текста через метод TextColorOne класса RichTextBoxColor.\n", Color.Red);
       }
 
       // Вывод текста заданного цвета через метод TextColorTwo класса RichTextBoxColor
       private void ButtonTextThree_Click(object sender, EventArgs e)
       {
-         
+         // Создаём экземпляр класса и передаём ссылку на элемент управления: RichTextBox
+         // Локальная переменная создаётся здесь и живёт только в этом методе
+         RichTextBoxColorMethod constructor = new RichTextBoxColorMethod();
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
          RichTextBoxColorMethod.TextColorTwo(RichTextBoxOne,
             "Вывод текста через метод TextColorTwo класса RichTextBoxColor.\n", Color.Black, font);
