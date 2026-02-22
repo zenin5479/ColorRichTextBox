@@ -48,7 +48,7 @@
          // 
          RichTextBoxOne.Location = new System.Drawing.Point(12, 76);
          RichTextBoxOne.Name = "RichTextBoxOne";
-         RichTextBoxOne.Size = new System.Drawing.Size(410, 250);
+         RichTextBoxOne.Size = new System.Drawing.Size(435, 250);
          RichTextBoxOne.TabIndex = 0;
          RichTextBoxOne.Text = "";
          // 
@@ -110,7 +110,7 @@
          GroupBoxMethod.Controls.Add(ButtonTextThree);
          GroupBoxMethod.Location = new System.Drawing.Point(12, 332);
          GroupBoxMethod.Name = "GroupBoxMethod";
-         GroupBoxMethod.Size = new System.Drawing.Size(410, 58);
+         GroupBoxMethod.Size = new System.Drawing.Size(435, 58);
          GroupBoxMethod.TabIndex = 6;
          GroupBoxMethod.TabStop = false;
          GroupBoxMethod.Text = "Передача ссылок в класс на элементы управления через метод";
@@ -123,7 +123,7 @@
          groupBox1.Controls.Add(button4);
          groupBox1.Location = new System.Drawing.Point(12, 12);
          groupBox1.Name = "groupBox1";
-         groupBox1.Size = new System.Drawing.Size(410, 58);
+         groupBox1.Size = new System.Drawing.Size(435, 58);
          groupBox1.TabIndex = 7;
          groupBox1.TabStop = false;
          groupBox1.Text = "Передача ссылок в класс на элементы управления через конструктор";
@@ -168,7 +168,7 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(433, 426);
+         ClientSize = new System.Drawing.Size(459, 426);
          Controls.Add(groupBox1);
          Controls.Add(GroupBoxMethod);
          Controls.Add(ButtonClear);
