@@ -18,7 +18,7 @@ namespace ColorRichTextBox
       }
 
       // Метод, добавляет текст заданного цвета и шрифта в RichTextBox
-      public void TextColorTwo(RichTextBox richTextBox, string text, Color color, Font font)
+      public void TextColorThree(RichTextBox richTextBox, string text, Color color, Font font)
       {
          //// Временно приостанавливает логику макета для элемента управления
          //richTextBox.SuspendLayout();
@@ -38,7 +38,7 @@ namespace ColorRichTextBox
          //richTextBox.ResumeLayout();
       }
 
-      public void TextColorThree(RichTextBox richTextBox, string text, Color color)
+      public void TextColorFour(RichTextBox richTextBox, string text, Color color)
       {
          // Временно приостанавливает логику макета для элемента управления
          richTextBox.SuspendLayout();
