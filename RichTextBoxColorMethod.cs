@@ -1,5 +1,4 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using System.Windows.Forms;
 
 namespace ColorRichTextBox
@@ -29,7 +28,7 @@ namespace ColorRichTextBox
          // Получает или задает цвет текущего текстового выделения или места вставки
          richTextBox.SelectionFont = font;
          // Добавляет текст в конец текущего текста в текстовом поле и переходит на новую строку
-         richTextBox.AppendText(isNewLine ? string.Format("{0}{1}", text, Environment.NewLine) : text);
+         richTextBox.AppendText(text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
          richTextBox.ScrollToCaret();
          // Возобновляет обычную логику макета
