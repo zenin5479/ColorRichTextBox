@@ -168,7 +168,7 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(845, 538);
+         ClientSize = new System.Drawing.Size(433, 538);
          Controls.Add(groupBox1);
          Controls.Add(GroupBoxMethod);
          Controls.Add(ButtonClear);
