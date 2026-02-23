@@ -11,7 +11,6 @@ namespace ColorRichTextBox
       // Конструктор, принимающий ссылки на элементы управления
       public RichTextBoxColorConstructor(TextBox textBox, ListBox listBox, RichTextBox richTextBox)
       {
-         _textBox = textBox;
          _listBox = listBox;
          _richTextBox = richTextBox;
       }
