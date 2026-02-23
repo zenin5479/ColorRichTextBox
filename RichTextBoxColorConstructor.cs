@@ -17,8 +17,6 @@ namespace ColorRichTextBox
          _richTextBox = richTextBox;
       }
 
-     
-
       // Метод, добавляет элемент в ListBox
       public void AddToListBox(string item)
       {
