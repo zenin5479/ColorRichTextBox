@@ -10,7 +10,7 @@ namespace ColorRichTextBox
       private readonly RichTextBox _richTextBox;
 
       // Конструктор, принимающий ссылки на элементы управления
-      public PassLinkControlConstructor(TextBox textBox, ListBox listBox, RichTextBox richTextBox)
+      public RichTextBoxColorConstructor(TextBox textBox, ListBox listBox, RichTextBox richTextBox)
       {
          _textBox = textBox;
          _listBox = listBox;
