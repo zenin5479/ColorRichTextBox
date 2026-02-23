@@ -17,16 +17,7 @@ namespace ColorRichTextBox
          _richTextBox = richTextBox;
       }
 
-      // Метод, добавляет элемент в ListBox
-      public void AddToListBox(string item)
-      {
-         if (_listBox != null)
-         {
-            _listBox.Items.Add(item);
-            // Прокрутка ListBox вниз
-            _listBox.TopIndex = _listBox.Items.Count - 1;
-         }
-      }
+      
 
       // Метод, добавляет текст в RichTextBox
       public void AddToRichTextBox(string text)
