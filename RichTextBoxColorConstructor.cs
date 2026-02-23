@@ -5,13 +5,11 @@ namespace ColorRichTextBox
 {
    public class RichTextBoxColorConstructor
    {
-      
       private readonly RichTextBox _richTextBox;
 
       // Конструктор, принимающий ссылки на элементы управления
       public RichTextBoxColorConstructor(TextBox textBox, ListBox listBox, RichTextBox richTextBox)
       {
-         _listBox = listBox;
          _richTextBox = richTextBox;
       }
 
