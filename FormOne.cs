@@ -66,8 +66,6 @@ namespace ColorRichTextBox
          RichTextBoxColorConstructor constructor = new RichTextBoxColorConstructor(RichTextBoxOne,
             "Вывод текста через метод TextColorTwo класса RichTextBoxColor\n", Color.Fuchsia);
          constructor.TextColorConstructorTwo();
-
-
       }
 
       private void ButtonTextConstructorTwo_Click(object sender, EventArgs e)
