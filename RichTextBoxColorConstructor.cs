@@ -31,7 +31,7 @@ namespace ColorRichTextBox
 
 
       // Метод, добавляет текст заданного цвета в RichTextBox
-      public void TextColorConstructorTwo()
+      public void TextColorConstructorOne()
       {
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
          _richTextBox.SelectionColor = _color;

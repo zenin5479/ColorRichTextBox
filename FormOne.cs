@@ -65,7 +65,7 @@ namespace ColorRichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе
          RichTextBoxColorConstructor constructor = new RichTextBoxColorConstructor(RichTextBoxOne,
             "Вывод текста через метод TextColorConstructorTwo класса RichTextBoxColorConstructor\n", Color.Fuchsia);
-         constructor.TextColorConstructorTwo();
+         constructor.TextColorConstructorOne();
       }
 
       private void ButtonTextConstructorTwo_Click(object sender, EventArgs e)
