@@ -77,10 +77,5 @@ namespace ColorRichTextBox
       {
 
       }
-
-      private void ButtonTextConstructorFour_Click(object sender, EventArgs e)
-      {
-
-      }
    }
 }
