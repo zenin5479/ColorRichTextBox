@@ -47,7 +47,7 @@ namespace ColorRichTextBox
          // Временно приостанавливает логику макета для элемента управления
          _richTextBox.SuspendLayout();
          // Получает или задает начальную позицию текста, выбранного в текстовом поле
-         _richTextBox.SelectionStart = richTextBox.TextLength;
+         _richTextBox.SelectionStart = _richTextBox.TextLength;
          // Получает или задает число символов, выделенных в элементе управления
          _richTextBox.SelectionLength = 0;
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
@@ -68,7 +68,7 @@ namespace ColorRichTextBox
          // Временно приостанавливает логику макета для элемента управления
          _richTextBox.SuspendLayout();
          // Получает или задает начальную позицию текста, выбранного в текстовом поле
-         _richTextBox.SelectionStart = richTextBox.TextLength;
+         _richTextBox.SelectionStart = _richTextBox.TextLength;
          // Получает или задает число символов, выделенных в элементе управления
          _richTextBox.SelectionLength = 0;
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
