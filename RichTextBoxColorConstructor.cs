@@ -34,7 +34,7 @@ namespace ColorRichTextBox
       public void TextColorConstructorTwo()
       {
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
-         richTextBox.SelectionColor = color;
+         _richTextBox.SelectionColor = color;
          // Добавляет текст в конец текущего текста в текстовом поле
          richTextBox.AppendText(text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
