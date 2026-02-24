@@ -100,7 +100,7 @@
          ButtonTextMethodFour.TabIndex = 5;
          ButtonTextMethodFour.Text = "Вариант 4";
          ButtonTextMethodFour.UseVisualStyleBackColor = true;
-         ButtonTextMethodFour.Click += ButtonTextFour_Click;
+         ButtonTextMethodFour.Click += ButtonTextMethodFour_Click;
          // 
          // GroupBoxMethod
          // 
