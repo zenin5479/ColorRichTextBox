@@ -12,7 +12,7 @@ namespace ColorRichTextBox
       }
 
       // Вывод текста заданного цвета через метод RichTextBoxColor класса ColorRichTextBox
-      private void ButtonTextOne_Click(object sender, EventArgs e)
+      private void ButtonTextMethodOne_Click(object sender, EventArgs e)
       {
          RichTextBoxColor("Вывод текста через метод RichTextBoxColor класса ColorRichTextBox\n", Color.Fuchsia);
       }

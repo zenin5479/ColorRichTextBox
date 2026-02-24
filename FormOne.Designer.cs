@@ -60,7 +60,7 @@
          ButtonTextMethodOne.TabIndex = 1;
          ButtonTextMethodOne.Text = "Вариант 1";
          ButtonTextMethodOne.UseVisualStyleBackColor = true;
-         ButtonTextMethodOne.Click += ButtonTextOne_Click;
+         ButtonTextMethodOne.Click += ButtonTextMethodOne_Click;
          // 
          // ButtonTextMethodTwo
          // 
