@@ -27,7 +27,7 @@ namespace ColorRichTextBox
       }
 
       // Вывод текста заданного цвета и шрифта через метод TextColorTwo класса RichTextBoxColorMethod
-      private void ButtonTextThree_Click(object sender, EventArgs e)
+      private void ButtonTextMethodThree_Click(object sender, EventArgs e)
       {
          // Создаём экземпляр класса и передаём ссылку на элемент управления: RichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе

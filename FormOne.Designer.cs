@@ -90,7 +90,7 @@
          ButtonTextMethodThree.TabIndex = 4;
          ButtonTextMethodThree.Text = "Вариант 3";
          ButtonTextMethodThree.UseVisualStyleBackColor = true;
-         ButtonTextMethodThree.Click += ButtonTextThree_Click;
+         ButtonTextMethodThree.Click += ButtonTextMethodThree_Click;
          // 
          // ButtonTextMethodFour
          // 
