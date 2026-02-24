@@ -68,10 +68,6 @@ namespace ColorRichTextBox
          //richTextBox.ResumeLayout();
       }
 
-
-
-
-
       // Метод, добавляет текст в RichTextBox
       public void AddToRichTextBox(string text)
       {
