@@ -36,7 +36,7 @@
          ButtonTextFour = new System.Windows.Forms.Button();
          GroupBoxMethod = new System.Windows.Forms.GroupBox();
          groupBox1 = new System.Windows.Forms.GroupBox();
-         button1 = new System.Windows.Forms.Button();
+         ButtonOne = new System.Windows.Forms.Button();
          button2 = new System.Windows.Forms.Button();
          button3 = new System.Windows.Forms.Button();
          button4 = new System.Windows.Forms.Button();
@@ -117,7 +117,7 @@
          // 
          // groupBox1
          // 
-         groupBox1.Controls.Add(button1);
+         groupBox1.Controls.Add(ButtonOne);
          groupBox1.Controls.Add(button2);
          groupBox1.Controls.Add(button3);
          groupBox1.Controls.Add(button4);
@@ -128,15 +128,15 @@
          groupBox1.TabStop = false;
          groupBox1.Text = "Передача ссылок в класс на элементы управления через конструктор";
          // 
-         // button1
+         // ButtonOne
          // 
-         button1.Location = new System.Drawing.Point(6, 22);
-         button1.Name = "button1";
-         button1.Size = new System.Drawing.Size(70, 25);
-         button1.TabIndex = 1;
-         button1.Text = "Вариант 1";
-         button1.UseVisualStyleBackColor = true;
-         button1.Click += button1_Click;
+         ButtonOne.Location = new System.Drawing.Point(6, 22);
+         ButtonOne.Name = "ButtonOne";
+         ButtonOne.Size = new System.Drawing.Size(70, 25);
+         ButtonOne.TabIndex = 1;
+         ButtonOne.Text = "Вариант 1";
+         ButtonOne.UseVisualStyleBackColor = true;
+         ButtonOne.Click += button1_Click;
          // 
          // button2
          // 
@@ -192,7 +192,7 @@
       private System.Windows.Forms.Button ButtonTextFour;
       private System.Windows.Forms.GroupBox GroupBoxMethod;
       private System.Windows.Forms.GroupBox groupBox1;
-      private System.Windows.Forms.Button button1;
+      private System.Windows.Forms.Button ButtonOne;
       private System.Windows.Forms.Button button2;
       private System.Windows.Forms.Button button3;
       private System.Windows.Forms.Button button4;
