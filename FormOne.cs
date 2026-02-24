@@ -23,7 +23,7 @@ namespace ColorRichTextBox
          // Создаём экземпляр класса и передаём ссылку на элемент управления: RichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе
          RichTextBoxColorMethod method = new RichTextBoxColorMethod();
-         method.TextColorTwo(RichTextBoxOne, "Вывод текста через метод TextColorTwo класса RichTextBoxColor\n", Color.Red);
+         method.TextColorMethodTwo(RichTextBoxOne, "Вывод текста через метод TextColorTwo класса RichTextBoxColor\n", Color.Red);
       }
 
       // Вывод текста заданного цвета и шрифта через метод TextColorTwo класса RichTextBoxColorMethod
