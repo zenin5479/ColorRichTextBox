@@ -36,9 +36,9 @@
          ButtonTextMethodFour = new System.Windows.Forms.Button();
          GroupBoxMethod = new System.Windows.Forms.GroupBox();
          groupBox1 = new System.Windows.Forms.GroupBox();
-         ButtonOne = new System.Windows.Forms.Button();
+         ButtonTextConstructorOne = new System.Windows.Forms.Button();
          button2 = new System.Windows.Forms.Button();
-         button3 = new System.Windows.Forms.Button();
+         ButtonTextConstructorTwo = new System.Windows.Forms.Button();
          button4 = new System.Windows.Forms.Button();
          GroupBoxMethod.SuspendLayout();
          groupBox1.SuspendLayout();
@@ -117,9 +117,9 @@
          // 
          // groupBox1
          // 
-         groupBox1.Controls.Add(ButtonOne);
+         groupBox1.Controls.Add(ButtonTextConstructorOne);
          groupBox1.Controls.Add(button2);
-         groupBox1.Controls.Add(button3);
+         groupBox1.Controls.Add(ButtonTextConstructorTwo);
          groupBox1.Controls.Add(button4);
          groupBox1.Location = new System.Drawing.Point(12, 12);
          groupBox1.Name = "groupBox1";
@@ -128,15 +128,15 @@
          groupBox1.TabStop = false;
          groupBox1.Text = "Передача ссылок в класс на элементы управления через конструктор";
          // 
-         // ButtonOne
+         // ButtonTextConstructorOne
          // 
-         ButtonOne.Location = new System.Drawing.Point(6, 22);
-         ButtonOne.Name = "ButtonOne";
-         ButtonOne.Size = new System.Drawing.Size(70, 25);
-         ButtonOne.TabIndex = 1;
-         ButtonOne.Text = "Вариант 1";
-         ButtonOne.UseVisualStyleBackColor = true;
-         ButtonOne.Click += button1_Click;
+         ButtonTextConstructorOne.Location = new System.Drawing.Point(6, 22);
+         ButtonTextConstructorOne.Name = "ButtonTextConstructorOne";
+         ButtonTextConstructorOne.Size = new System.Drawing.Size(70, 25);
+         ButtonTextConstructorOne.TabIndex = 1;
+         ButtonTextConstructorOne.Text = "Вариант 1";
+         ButtonTextConstructorOne.UseVisualStyleBackColor = true;
+         ButtonTextConstructorOne.Click += button1_Click;
          // 
          // button2
          // 
@@ -147,14 +147,14 @@
          button2.Text = "Вариант 4";
          button2.UseVisualStyleBackColor = true;
          // 
-         // button3
+         // ButtonTextConstructorTwo
          // 
-         button3.Location = new System.Drawing.Point(82, 22);
-         button3.Name = "button3";
-         button3.Size = new System.Drawing.Size(70, 25);
-         button3.TabIndex = 2;
-         button3.Text = "Вариант 2";
-         button3.UseVisualStyleBackColor = true;
+         ButtonTextConstructorTwo.Location = new System.Drawing.Point(82, 22);
+         ButtonTextConstructorTwo.Name = "ButtonTextConstructorTwo";
+         ButtonTextConstructorTwo.Size = new System.Drawing.Size(70, 25);
+         ButtonTextConstructorTwo.TabIndex = 2;
+         ButtonTextConstructorTwo.Text = "Вариант 2";
+         ButtonTextConstructorTwo.UseVisualStyleBackColor = true;
          // 
          // button4
          // 
@@ -192,9 +192,9 @@
       private System.Windows.Forms.Button ButtonTextMethodFour;
       private System.Windows.Forms.GroupBox GroupBoxMethod;
       private System.Windows.Forms.GroupBox groupBox1;
-      private System.Windows.Forms.Button ButtonOne;
+      private System.Windows.Forms.Button ButtonTextConstructorOne;
       private System.Windows.Forms.Button button2;
-      private System.Windows.Forms.Button button3;
+      private System.Windows.Forms.Button ButtonTextConstructorTwo;
       private System.Windows.Forms.Button button4;
    }
 }
