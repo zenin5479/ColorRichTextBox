@@ -36,7 +36,7 @@ namespace ColorRichTextBox
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
          _richTextBox.SelectionColor = color;
          // Добавляет текст в конец текущего текста в текстовом поле
-         _richTextBox.AppendText(text);
+         _richTextBox.AppendText(_text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
          _richTextBox.ScrollToCaret();
       }
@@ -55,7 +55,7 @@ namespace ColorRichTextBox
          // Получает или задает цвет текущего текстового выделения или места вставки
          _richTextBox.SelectionFont = font;
          // Добавляет текст в конец текущего текста в текстовом поле и переходит на новую строку
-         _richTextBox.AppendText(text);
+         _richTextBox.AppendText(_text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
          _richTextBox.ScrollToCaret();
          //// Возобновляет обычную логику макета
@@ -63,7 +63,7 @@ namespace ColorRichTextBox
       }
 
       // Метод, добавляет текст заданного цвета и шрифта в RichTextBox
-      public void TextColorConstructorFour(RichTextBox richTextBox, string text, Color color)
+      public void TextColorConstructorFour()
       {
          // Временно приостанавливает логику макета для элемента управления
          _richTextBox.SuspendLayout();
@@ -77,7 +77,7 @@ namespace ColorRichTextBox
          // Получает или задает цвет текущего текстового выделения или места вставки
          _richTextBox.SelectionFont = font;
          // Добавляет текст в конец текущего текста в текстовом поле
-         _richTextBox.AppendText(text);
+         _richTextBox.AppendText(_text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
          _richTextBox.ScrollToCaret();
          //// Возобновляет обычную логику макета
