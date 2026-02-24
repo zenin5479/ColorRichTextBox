@@ -70,7 +70,7 @@
          ButtonTextMethodTwo.TabIndex = 2;
          ButtonTextMethodTwo.Text = "Вариант 2";
          ButtonTextMethodTwo.UseVisualStyleBackColor = true;
-         ButtonTextMethodTwo.Click += ButtonTextTwo_Click;
+         ButtonTextMethodTwo.Click += ButtonTextMethodTwo_Click;
          // 
          // ButtonClear
          // 

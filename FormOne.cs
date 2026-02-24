@@ -18,7 +18,7 @@ namespace ColorRichTextBox
       }
 
       // Вывод текста заданного цвета через метод TextColorOne класса RichTextBoxColorMethod
-      private void ButtonTextTwo_Click(object sender, EventArgs e)
+      private void ButtonTextMethodTwo_Click(object sender, EventArgs e)
       {
          // Создаём экземпляр класса и передаём ссылку на элемент управления: RichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе
