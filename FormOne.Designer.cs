@@ -33,7 +33,7 @@
          ButtonTextMethodTwo = new System.Windows.Forms.Button();
          ButtonClear = new System.Windows.Forms.Button();
          ButtonTextMethodThree = new System.Windows.Forms.Button();
-         ButtonTextFour = new System.Windows.Forms.Button();
+         ButtonTextMethodFour = new System.Windows.Forms.Button();
          GroupBoxMethod = new System.Windows.Forms.GroupBox();
          groupBox1 = new System.Windows.Forms.GroupBox();
          ButtonOne = new System.Windows.Forms.Button();
@@ -92,20 +92,20 @@
          ButtonTextMethodThree.UseVisualStyleBackColor = true;
          ButtonTextMethodThree.Click += ButtonTextThree_Click;
          // 
-         // ButtonTextFour
+         // ButtonTextMethodFour
          // 
-         ButtonTextFour.Location = new System.Drawing.Point(234, 22);
-         ButtonTextFour.Name = "ButtonTextFour";
-         ButtonTextFour.Size = new System.Drawing.Size(70, 25);
-         ButtonTextFour.TabIndex = 5;
-         ButtonTextFour.Text = "Вариант 4";
-         ButtonTextFour.UseVisualStyleBackColor = true;
-         ButtonTextFour.Click += ButtonTextFour_Click;
+         ButtonTextMethodFour.Location = new System.Drawing.Point(234, 22);
+         ButtonTextMethodFour.Name = "ButtonTextMethodFour";
+         ButtonTextMethodFour.Size = new System.Drawing.Size(70, 25);
+         ButtonTextMethodFour.TabIndex = 5;
+         ButtonTextMethodFour.Text = "Вариант 4";
+         ButtonTextMethodFour.UseVisualStyleBackColor = true;
+         ButtonTextMethodFour.Click += ButtonTextFour_Click;
          // 
          // GroupBoxMethod
          // 
          GroupBoxMethod.Controls.Add(ButtonTextMethodOne);
-         GroupBoxMethod.Controls.Add(ButtonTextFour);
+         GroupBoxMethod.Controls.Add(ButtonTextMethodFour);
          GroupBoxMethod.Controls.Add(ButtonTextMethodTwo);
          GroupBoxMethod.Controls.Add(ButtonTextMethodThree);
          GroupBoxMethod.Location = new System.Drawing.Point(12, 332);
@@ -189,7 +189,7 @@
       private System.Windows.Forms.Button ButtonTextMethodTwo;
       private System.Windows.Forms.Button ButtonClear;
       private System.Windows.Forms.Button ButtonTextMethodThree;
-      private System.Windows.Forms.Button ButtonTextFour;
+      private System.Windows.Forms.Button ButtonTextMethodFour;
       private System.Windows.Forms.GroupBox GroupBoxMethod;
       private System.Windows.Forms.GroupBox groupBox1;
       private System.Windows.Forms.Button ButtonOne;
