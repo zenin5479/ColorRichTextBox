@@ -58,5 +58,10 @@ namespace ColorRichTextBox
          RichTextBoxOne.AppendText(tolog);
          RichTextBoxOne.ScrollToCaret();
       }
+
+      private void button1_Click(object sender, EventArgs e)
+      {
+
+      }
    }
 }
