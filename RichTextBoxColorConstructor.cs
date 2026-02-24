@@ -66,20 +66,20 @@ namespace ColorRichTextBox
       public void TextColorConstructorFour(RichTextBox richTextBox, string text, Color color)
       {
          // Временно приостанавливает логику макета для элемента управления
-         richTextBox.SuspendLayout();
+         _richTextBox.SuspendLayout();
          // Получает или задает начальную позицию текста, выбранного в текстовом поле
-         richTextBox.SelectionStart = richTextBox.TextLength;
+         _richTextBox.SelectionStart = richTextBox.TextLength;
          // Получает или задает число символов, выделенных в элементе управления
-         richTextBox.SelectionLength = 0;
+         _richTextBox.SelectionLength = 0;
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
-         richTextBox.SelectionColor = color;
+         _richTextBox.SelectionColor = color;
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
          // Получает или задает цвет текущего текстового выделения или места вставки
-         richTextBox.SelectionFont = font;
+         _richTextBox.SelectionFont = font;
          // Добавляет текст в конец текущего текста в текстовом поле
-         richTextBox.AppendText(text);
+         _richTextBox.AppendText(text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
-         richTextBox.ScrollToCaret();
+         _richTextBox.ScrollToCaret();
          //// Возобновляет обычную логику макета
          //richTextBox.ResumeLayout();
       }
