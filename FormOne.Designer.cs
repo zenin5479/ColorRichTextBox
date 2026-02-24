@@ -155,6 +155,7 @@
          ButtonTextConstructorTwo.TabIndex = 2;
          ButtonTextConstructorTwo.Text = "Вариант 2";
          ButtonTextConstructorTwo.UseVisualStyleBackColor = true;
+         ButtonTextConstructorTwo.Click += ButtonTextConstructorTwo_Click;
          // 
          // ButtonTextConstructorThree
          // 
