@@ -32,7 +32,7 @@
          ButtonTextMethodOne = new System.Windows.Forms.Button();
          ButtonTextMethodTwo = new System.Windows.Forms.Button();
          ButtonClear = new System.Windows.Forms.Button();
-         ButtonTextThree = new System.Windows.Forms.Button();
+         ButtonTextMethodThree = new System.Windows.Forms.Button();
          ButtonTextFour = new System.Windows.Forms.Button();
          GroupBoxMethod = new System.Windows.Forms.GroupBox();
          groupBox1 = new System.Windows.Forms.GroupBox();
@@ -82,15 +82,15 @@
          ButtonClear.UseVisualStyleBackColor = true;
          ButtonClear.Click += ButtonClear_Click;
          // 
-         // ButtonTextThree
+         // ButtonTextMethodThree
          // 
-         ButtonTextThree.Location = new System.Drawing.Point(158, 22);
-         ButtonTextThree.Name = "ButtonTextThree";
-         ButtonTextThree.Size = new System.Drawing.Size(70, 25);
-         ButtonTextThree.TabIndex = 4;
-         ButtonTextThree.Text = "Вариант 3";
-         ButtonTextThree.UseVisualStyleBackColor = true;
-         ButtonTextThree.Click += ButtonTextThree_Click;
+         ButtonTextMethodThree.Location = new System.Drawing.Point(158, 22);
+         ButtonTextMethodThree.Name = "ButtonTextMethodThree";
+         ButtonTextMethodThree.Size = new System.Drawing.Size(70, 25);
+         ButtonTextMethodThree.TabIndex = 4;
+         ButtonTextMethodThree.Text = "Вариант 3";
+         ButtonTextMethodThree.UseVisualStyleBackColor = true;
+         ButtonTextMethodThree.Click += ButtonTextThree_Click;
          // 
          // ButtonTextFour
          // 
@@ -107,7 +107,7 @@
          GroupBoxMethod.Controls.Add(ButtonTextMethodOne);
          GroupBoxMethod.Controls.Add(ButtonTextFour);
          GroupBoxMethod.Controls.Add(ButtonTextMethodTwo);
-         GroupBoxMethod.Controls.Add(ButtonTextThree);
+         GroupBoxMethod.Controls.Add(ButtonTextMethodThree);
          GroupBoxMethod.Location = new System.Drawing.Point(12, 332);
          GroupBoxMethod.Name = "GroupBoxMethod";
          GroupBoxMethod.Size = new System.Drawing.Size(435, 58);
@@ -188,7 +188,7 @@
       private System.Windows.Forms.Button ButtonTextMethodOne;
       private System.Windows.Forms.Button ButtonTextMethodTwo;
       private System.Windows.Forms.Button ButtonClear;
-      private System.Windows.Forms.Button ButtonTextThree;
+      private System.Windows.Forms.Button ButtonTextMethodThree;
       private System.Windows.Forms.Button ButtonTextFour;
       private System.Windows.Forms.GroupBox GroupBoxMethod;
       private System.Windows.Forms.GroupBox groupBox1;
