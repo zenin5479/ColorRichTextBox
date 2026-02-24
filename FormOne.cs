@@ -61,6 +61,9 @@ namespace ColorRichTextBox
 
       private void ButtonTextConstructorOne_Click(object sender, EventArgs e)
       {
+         // Создаём экземпляр класса и передаём ссылку на элемент управления: RichTextBox
+         // Локальная переменная создаётся здесь и живёт только в этом методе
+         RichTextBoxColorMethod Constructor = new RichTextBoxColorMethod();
 
       }
 
