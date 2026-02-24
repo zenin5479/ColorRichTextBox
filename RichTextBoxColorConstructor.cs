@@ -7,11 +7,22 @@ namespace ColorRichTextBox
    public class RichTextBoxColorConstructor
    {
       private readonly RichTextBox _richTextBox;
+      private readonly string _text;
+      private readonly Color _color;
 
       // Конструктор, принимающий ссылки на элементы управления
-      public RichTextBoxColorConstructor(RichTextBox richTextBox)
+      public RichTextBoxColorConstructor(RichTextBox richTextBox, string text, Color color)
       {
          _richTextBox = richTextBox;
+         _text = text;
+         _color = color;
+      }
+
+      public RichTextBoxColorConstructor(RichTextBox richTextBox, string text)
+      {
+         _richTextBox = richTextBox;
+         _text = text;
+         _color = color;
       }
 
       // Метод, добавляет текст заданного цвета в RichTextBox
