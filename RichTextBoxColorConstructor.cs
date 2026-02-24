@@ -29,7 +29,6 @@ namespace ColorRichTextBox
          _richTextBox = richTextBox;
       }
 
-
       // Метод, добавляет текст заданного цвета в RichTextBox
       public void TextColorConstructorOne()
       {
