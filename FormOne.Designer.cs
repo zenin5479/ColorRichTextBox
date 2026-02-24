@@ -165,6 +165,7 @@
          ButtonTextConstructorThree.TabIndex = 4;
          ButtonTextConstructorThree.Text = "Вариант 3";
          ButtonTextConstructorThree.UseVisualStyleBackColor = true;
+         ButtonTextConstructorThree.Click += ButtonTextConstructorThree_Click;
          // 
          // FormOne
          // 

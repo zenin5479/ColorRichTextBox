@@ -68,5 +68,10 @@ namespace ColorRichTextBox
       {
 
       }
+
+      private void ButtonTextConstructorThree_Click(object sender, EventArgs e)
+      {
+
+      }
    }
 }
