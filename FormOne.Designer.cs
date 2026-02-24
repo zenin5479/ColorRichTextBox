@@ -30,7 +30,7 @@
       {
          RichTextBoxOne = new System.Windows.Forms.RichTextBox();
          ButtonTextMethodOne = new System.Windows.Forms.Button();
-         ButtonTextTwo = new System.Windows.Forms.Button();
+         ButtonTextMethodTwo = new System.Windows.Forms.Button();
          ButtonClear = new System.Windows.Forms.Button();
          ButtonTextThree = new System.Windows.Forms.Button();
          ButtonTextFour = new System.Windows.Forms.Button();
@@ -62,15 +62,15 @@
          ButtonTextMethodOne.UseVisualStyleBackColor = true;
          ButtonTextMethodOne.Click += ButtonTextOne_Click;
          // 
-         // ButtonTextTwo
+         // ButtonTextMethodTwo
          // 
-         ButtonTextTwo.Location = new System.Drawing.Point(82, 22);
-         ButtonTextTwo.Name = "ButtonTextTwo";
-         ButtonTextTwo.Size = new System.Drawing.Size(70, 25);
-         ButtonTextTwo.TabIndex = 2;
-         ButtonTextTwo.Text = "Вариант 2";
-         ButtonTextTwo.UseVisualStyleBackColor = true;
-         ButtonTextTwo.Click += ButtonTextTwo_Click;
+         ButtonTextMethodTwo.Location = new System.Drawing.Point(82, 22);
+         ButtonTextMethodTwo.Name = "ButtonTextMethodTwo";
+         ButtonTextMethodTwo.Size = new System.Drawing.Size(70, 25);
+         ButtonTextMethodTwo.TabIndex = 2;
+         ButtonTextMethodTwo.Text = "Вариант 2";
+         ButtonTextMethodTwo.UseVisualStyleBackColor = true;
+         ButtonTextMethodTwo.Click += ButtonTextTwo_Click;
          // 
          // ButtonClear
          // 
@@ -106,7 +106,7 @@
          // 
          GroupBoxMethod.Controls.Add(ButtonTextMethodOne);
          GroupBoxMethod.Controls.Add(ButtonTextFour);
-         GroupBoxMethod.Controls.Add(ButtonTextTwo);
+         GroupBoxMethod.Controls.Add(ButtonTextMethodTwo);
          GroupBoxMethod.Controls.Add(ButtonTextThree);
          GroupBoxMethod.Location = new System.Drawing.Point(12, 332);
          GroupBoxMethod.Name = "GroupBoxMethod";
@@ -186,7 +186,7 @@
 
       private System.Windows.Forms.RichTextBox RichTextBoxOne;
       private System.Windows.Forms.Button ButtonTextMethodOne;
-      private System.Windows.Forms.Button ButtonTextTwo;
+      private System.Windows.Forms.Button ButtonTextMethodTwo;
       private System.Windows.Forms.Button ButtonClear;
       private System.Windows.Forms.Button ButtonTextThree;
       private System.Windows.Forms.Button ButtonTextFour;
