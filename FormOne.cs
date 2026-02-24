@@ -59,7 +59,7 @@ namespace ColorRichTextBox
          RichTextBoxOne.ScrollToCaret();
       }
 
-      private void button1_Click(object sender, EventArgs e)
+      private void ButtonTextConstructorOne_Click(object sender, EventArgs e)
       {
 
       }

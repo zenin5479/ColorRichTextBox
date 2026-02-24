@@ -136,7 +136,7 @@
          ButtonTextConstructorOne.TabIndex = 1;
          ButtonTextConstructorOne.Text = "Вариант 1";
          ButtonTextConstructorOne.UseVisualStyleBackColor = true;
-         ButtonTextConstructorOne.Click += button1_Click;
+         ButtonTextConstructorOne.Click += ButtonTextConstructorOne_Click;
          // 
          // ButtonTextConstructorFour
          // 
