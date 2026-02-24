@@ -24,7 +24,10 @@ namespace ColorRichTextBox
          _text = text;
       }
 
-
+      public RichTextBoxColorConstructor(RichTextBox richTextBox)
+      {
+         _richTextBox = richTextBox;
+      }
 
 
       // Метод, добавляет текст заданного цвета в RichTextBox
