@@ -52,14 +52,15 @@ namespace ColorRichTextBox
          _richTextBox.SelectionLength = 0;
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
          _richTextBox.SelectionColor = _color;
+         Font font = new Font("Tahoma", 10, FontStyle.Regular);
          // Получает или задает цвет текущего текстового выделения или места вставки
          _richTextBox.SelectionFont = font;
          // Добавляет текст в конец текущего текста в текстовом поле и переходит на новую строку
          _richTextBox.AppendText(_text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
          _richTextBox.ScrollToCaret();
-         //// Возобновляет обычную логику макета
-         //richTextBox.ResumeLayout();
+         // Возобновляет обычную логику макета
+         _richTextBox.ResumeLayout();
       }
 
       // Метод, добавляет текст заданного цвета и шрифта в RichTextBox
@@ -80,8 +81,8 @@ namespace ColorRichTextBox
          _richTextBox.AppendText(_text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
          _richTextBox.ScrollToCaret();
-         //// Возобновляет обычную логику макета
-         //richTextBox.ResumeLayout();
+         // Возобновляет обычную логику макета
+         _richTextBox.ResumeLayout();
       }
 
       // Метод, добавляет текст в RichTextBox
