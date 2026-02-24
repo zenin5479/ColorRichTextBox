@@ -37,7 +37,7 @@
          GroupBoxMethod = new System.Windows.Forms.GroupBox();
          groupBox1 = new System.Windows.Forms.GroupBox();
          ButtonTextConstructorOne = new System.Windows.Forms.Button();
-         button2 = new System.Windows.Forms.Button();
+         ButtonTextConstructorFour = new System.Windows.Forms.Button();
          ButtonTextConstructorTwo = new System.Windows.Forms.Button();
          ButtonTextConstructorThree = new System.Windows.Forms.Button();
          GroupBoxMethod.SuspendLayout();
@@ -118,7 +118,7 @@
          // groupBox1
          // 
          groupBox1.Controls.Add(ButtonTextConstructorOne);
-         groupBox1.Controls.Add(button2);
+         groupBox1.Controls.Add(ButtonTextConstructorFour);
          groupBox1.Controls.Add(ButtonTextConstructorTwo);
          groupBox1.Controls.Add(ButtonTextConstructorThree);
          groupBox1.Location = new System.Drawing.Point(12, 12);
@@ -138,14 +138,14 @@
          ButtonTextConstructorOne.UseVisualStyleBackColor = true;
          ButtonTextConstructorOne.Click += button1_Click;
          // 
-         // button2
+         // ButtonTextConstructorFour
          // 
-         button2.Location = new System.Drawing.Point(234, 22);
-         button2.Name = "button2";
-         button2.Size = new System.Drawing.Size(70, 25);
-         button2.TabIndex = 5;
-         button2.Text = "Вариант 4";
-         button2.UseVisualStyleBackColor = true;
+         ButtonTextConstructorFour.Location = new System.Drawing.Point(234, 22);
+         ButtonTextConstructorFour.Name = "ButtonTextConstructorFour";
+         ButtonTextConstructorFour.Size = new System.Drawing.Size(70, 25);
+         ButtonTextConstructorFour.TabIndex = 5;
+         ButtonTextConstructorFour.Text = "Вариант 4";
+         ButtonTextConstructorFour.UseVisualStyleBackColor = true;
          // 
          // ButtonTextConstructorTwo
          // 
@@ -193,7 +193,7 @@
       private System.Windows.Forms.GroupBox GroupBoxMethod;
       private System.Windows.Forms.GroupBox groupBox1;
       private System.Windows.Forms.Button ButtonTextConstructorOne;
-      private System.Windows.Forms.Button button2;
+      private System.Windows.Forms.Button ButtonTextConstructorFour;
       private System.Windows.Forms.Button ButtonTextConstructorTwo;
       private System.Windows.Forms.Button ButtonTextConstructorThree;
    }
