@@ -29,7 +29,7 @@
       private void InitializeComponent()
       {
          RichTextBoxOne = new System.Windows.Forms.RichTextBox();
-         ButtonTextOne = new System.Windows.Forms.Button();
+         ButtonTextMethodOne = new System.Windows.Forms.Button();
          ButtonTextTwo = new System.Windows.Forms.Button();
          ButtonClear = new System.Windows.Forms.Button();
          ButtonTextThree = new System.Windows.Forms.Button();
@@ -52,15 +52,15 @@
          RichTextBoxOne.TabIndex = 0;
          RichTextBoxOne.Text = "";
          // 
-         // ButtonTextOne
+         // ButtonTextMethodOne
          // 
-         ButtonTextOne.Location = new System.Drawing.Point(6, 22);
-         ButtonTextOne.Name = "ButtonTextOne";
-         ButtonTextOne.Size = new System.Drawing.Size(70, 25);
-         ButtonTextOne.TabIndex = 1;
-         ButtonTextOne.Text = "Вариант 1";
-         ButtonTextOne.UseVisualStyleBackColor = true;
-         ButtonTextOne.Click += ButtonTextOne_Click;
+         ButtonTextMethodOne.Location = new System.Drawing.Point(6, 22);
+         ButtonTextMethodOne.Name = "ButtonTextMethodOne";
+         ButtonTextMethodOne.Size = new System.Drawing.Size(70, 25);
+         ButtonTextMethodOne.TabIndex = 1;
+         ButtonTextMethodOne.Text = "Вариант 1";
+         ButtonTextMethodOne.UseVisualStyleBackColor = true;
+         ButtonTextMethodOne.Click += ButtonTextOne_Click;
          // 
          // ButtonTextTwo
          // 
@@ -104,7 +104,7 @@
          // 
          // GroupBoxMethod
          // 
-         GroupBoxMethod.Controls.Add(ButtonTextOne);
+         GroupBoxMethod.Controls.Add(ButtonTextMethodOne);
          GroupBoxMethod.Controls.Add(ButtonTextFour);
          GroupBoxMethod.Controls.Add(ButtonTextTwo);
          GroupBoxMethod.Controls.Add(ButtonTextThree);
@@ -185,7 +185,7 @@
       #endregion
 
       private System.Windows.Forms.RichTextBox RichTextBoxOne;
-      private System.Windows.Forms.Button ButtonTextOne;
+      private System.Windows.Forms.Button ButtonTextMethodOne;
       private System.Windows.Forms.Button ButtonTextTwo;
       private System.Windows.Forms.Button ButtonClear;
       private System.Windows.Forms.Button ButtonTextThree;
