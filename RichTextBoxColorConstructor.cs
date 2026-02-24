@@ -64,7 +64,7 @@ namespace ColorRichTextBox
       }
 
       // Метод, добавляет текст заданного цвета и шрифта в RichTextBox
-      public void TextColorConstructorFour()
+      public void TextColorConstructorThree()
       {
          // Временно приостанавливает логику макета для элемента управления
          _richTextBox.SuspendLayout();
