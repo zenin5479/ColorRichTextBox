@@ -39,7 +39,7 @@
          ButtonTextConstructorOne = new System.Windows.Forms.Button();
          button2 = new System.Windows.Forms.Button();
          ButtonTextConstructorTwo = new System.Windows.Forms.Button();
-         button4 = new System.Windows.Forms.Button();
+         ButtonTextConstructorThree = new System.Windows.Forms.Button();
          GroupBoxMethod.SuspendLayout();
          groupBox1.SuspendLayout();
          SuspendLayout();
@@ -120,7 +120,7 @@
          groupBox1.Controls.Add(ButtonTextConstructorOne);
          groupBox1.Controls.Add(button2);
          groupBox1.Controls.Add(ButtonTextConstructorTwo);
-         groupBox1.Controls.Add(button4);
+         groupBox1.Controls.Add(ButtonTextConstructorThree);
          groupBox1.Location = new System.Drawing.Point(12, 12);
          groupBox1.Name = "groupBox1";
          groupBox1.Size = new System.Drawing.Size(435, 58);
@@ -156,14 +156,14 @@
          ButtonTextConstructorTwo.Text = "Вариант 2";
          ButtonTextConstructorTwo.UseVisualStyleBackColor = true;
          // 
-         // button4
+         // ButtonTextConstructorThree
          // 
-         button4.Location = new System.Drawing.Point(158, 22);
-         button4.Name = "button4";
-         button4.Size = new System.Drawing.Size(70, 25);
-         button4.TabIndex = 4;
-         button4.Text = "Вариант 3";
-         button4.UseVisualStyleBackColor = true;
+         ButtonTextConstructorThree.Location = new System.Drawing.Point(158, 22);
+         ButtonTextConstructorThree.Name = "ButtonTextConstructorThree";
+         ButtonTextConstructorThree.Size = new System.Drawing.Size(70, 25);
+         ButtonTextConstructorThree.TabIndex = 4;
+         ButtonTextConstructorThree.Text = "Вариант 3";
+         ButtonTextConstructorThree.UseVisualStyleBackColor = true;
          // 
          // FormOne
          // 
@@ -195,6 +195,6 @@
       private System.Windows.Forms.Button ButtonTextConstructorOne;
       private System.Windows.Forms.Button button2;
       private System.Windows.Forms.Button ButtonTextConstructorTwo;
-      private System.Windows.Forms.Button button4;
+      private System.Windows.Forms.Button ButtonTextConstructorThree;
    }
 }
