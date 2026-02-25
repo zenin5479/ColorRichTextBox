@@ -88,13 +88,7 @@ namespace ColorRichTextBox
       // Метод, добавляет текст в RichTextBox
       public void AddToRichTextBox(string text)
       {
-         if (_richTextBox != null)
-         {
-            _richTextBox.AppendText(text);
-            _richTextBox.AppendText(Environment.NewLine);
-            // Прокрутка RichTextBox вниз
-            _richTextBox.ScrollToCaret();
-         }
+         
       }
    }
 }
