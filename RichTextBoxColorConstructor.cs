@@ -86,9 +86,5 @@ namespace ColorRichTextBox
       }
 
       // Метод, добавляет текст в RichTextBox
-      public void AddToRichTextBox(string text)
-      {
-         
-      }
    }
 }
