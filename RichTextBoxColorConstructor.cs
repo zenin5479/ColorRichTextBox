@@ -76,8 +76,10 @@ namespace ColorRichTextBox
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
          // Получает или задает цвет текущего текстового выделения или места вставки
          _richTextBox.SelectionFont = font;
+         string text = "Вывод текста через метод TextColorConstructorOne класса RichTextBoxColorConstructor\n";
          // Добавляет текст в конец текущего текста в текстовом поле
-         _richTextBox.AppendText(_text);
+
+         _richTextBox.AppendText(text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
          _richTextBox.ScrollToCaret();
          // Возобновляет обычную логику макета
