@@ -73,7 +73,7 @@ namespace ColorRichTextBox
          _richTextBox.SelectionLength = 0;
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
          _richTextBox.SelectionColor = Color.Chocolate;
-         Font font = new Font("Tahoma", 10, FontStyle.Regular);
+         Font font = new Font("Tahoma", 8, FontStyle.Regular);
          // Получает или задает цвет текущего текстового выделения или места вставки
          _richTextBox.SelectionFont = font;
          string text = "Вывод текста через метод TextColorConstructorOne класса RichTextBoxColorConstructor\n";
