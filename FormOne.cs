@@ -45,19 +45,6 @@ namespace ColorRichTextBox
          method.TextColorMethodFour(RichTextBoxOne, "Вывод текста через метод TextColorFour класса RichTextBoxColor\n", Color.Chocolate);
       }
 
-      // Очистить RichTextBox
-      private void ButtonClear_Click(object sender, EventArgs e)
-      {
-         RichTextBoxOne.Clear();
-      }
-
-      // Метод изменения цвета текста RichTextBox
-      private void RichTextBoxColor(string tolog, Color color)
-      {
-         RichTextBoxOne.SelectionColor = color;
-         RichTextBoxOne.AppendText(tolog);
-         RichTextBoxOne.ScrollToCaret();
-      }
 
       private void ButtonTextConstructorOne_Click(object sender, EventArgs e)
       {
@@ -83,6 +70,20 @@ namespace ColorRichTextBox
          // Локальная переменная создаётся здесь и живёт только в этом методе
          RichTextBoxColorConstructor constructor = new RichTextBoxColorConstructor(RichTextBoxOne);
          constructor.TextColorConstructorThree();
+      }
+
+      // Очистить RichTextBox
+      private void ButtonClear_Click(object sender, EventArgs e)
+      {
+         RichTextBoxOne.Clear();
+      }
+
+      // Метод изменения цвета текста RichTextBox
+      private void RichTextBoxColor(string tolog, Color color)
+      {
+         RichTextBoxOne.SelectionColor = color;
+         RichTextBoxOne.AppendText(tolog);
+         RichTextBoxOne.ScrollToCaret();
       }
    }
 }
