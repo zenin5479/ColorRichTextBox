@@ -78,7 +78,6 @@ namespace ColorRichTextBox
          _richTextBox.SelectionFont = font;
          string text = "Вывод текста через метод TextColorConstructorOne класса RichTextBoxColorConstructor\n";
          // Добавляет текст в конец текущего текста в текстовом поле
-
          _richTextBox.AppendText(text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
          _richTextBox.ScrollToCaret();
