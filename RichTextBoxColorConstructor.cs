@@ -50,7 +50,7 @@ namespace ColorRichTextBox
          // Получает или задает число символов, выделенных в элементе управления
          _richTextBox.SelectionLength = 0;
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
-         _richTextBox.SelectionColor = _color;
+         _richTextBox.SelectionColor = Color.Indigo;
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
          // Получает или задает цвет текущего текстового выделения или места вставки
          _richTextBox.SelectionFont = font;
@@ -72,7 +72,7 @@ namespace ColorRichTextBox
          // Получает или задает число символов, выделенных в элементе управления
          _richTextBox.SelectionLength = 0;
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
-         _richTextBox.SelectionColor = _color;
+         _richTextBox.SelectionColor = Color.Chocolate;
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
          // Получает или задает цвет текущего текстового выделения или места вставки
          _richTextBox.SelectionFont = font;
