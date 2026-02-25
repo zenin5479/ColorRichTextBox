@@ -65,7 +65,7 @@ namespace ColorRichTextBox
          constructor.TextColorConstructorTwo();
       }
 
-
+      // Вывод текста заданного цвета через метод TextColorConstructorOne класса RichTextBoxColorConstructor
       private void ButtonTextConstructorThree_Click(object sender, EventArgs e)
       {
          // Создаём экземпляр класса и передаём ссылку на элемент управления: RichTextBox
