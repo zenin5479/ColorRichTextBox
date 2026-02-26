@@ -42,12 +42,12 @@ namespace ColorRichTextBox
       // Метод, добавляет текст заданного цвета и шрифта в RichTextBox
       public void TextColorConstructorTwo()
       {
-         // Временно приостанавливает логику макета для элемента управления
-         _richTextBox.SuspendLayout();
-         // Получает или задает начальную позицию текста, выбранного в текстовом поле
-         _richTextBox.SelectionStart = _richTextBox.TextLength;
-         // Получает или задает число символов, выделенных в элементе управления
-         _richTextBox.SelectionLength = 0;
+         //// Временно приостанавливает логику макета для элемента управления
+         //_richTextBox.SuspendLayout();
+         //// Получает или задает начальную позицию текста, выбранного в текстовом поле
+         //_richTextBox.SelectionStart = _richTextBox.TextLength;
+         //// Получает или задает число символов, выделенных в элементе управления
+         //_richTextBox.SelectionLength = 0;
          // Получает или задает цвет текста, который будет применен к текущему выделению или положению курсора
          _richTextBox.SelectionColor = Color.Indigo;
          Font font = new Font("Tahoma", 10, FontStyle.Regular);
