@@ -74,8 +74,6 @@ namespace ColorRichTextBox
          constructor.TextColorConstructorThree();
       }
 
-      
-
       // Метод изменения цвета текста RichTextBox
       private void RichTextBoxColor(string tolog, Color color)
       {
