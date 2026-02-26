@@ -80,8 +80,8 @@ namespace ColorRichTextBox
          _richTextBox.AppendText(text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
          _richTextBox.ScrollToCaret();
-         // Возобновляет обычную логику макета
-         _richTextBox.ResumeLayout();
+         //// Возобновляет обычную логику макета
+         //_richTextBox.ResumeLayout();
       }
    }
 }
