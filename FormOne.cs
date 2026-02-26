@@ -81,7 +81,7 @@ namespace ColorRichTextBox
          RichTextBoxOne.AppendText(tolog);
          RichTextBoxOne.ScrollToCaret();
       }
-      
+
       // Очистить RichTextBox
       private void ButtonClear_Click(object sender, EventArgs e)
       {
