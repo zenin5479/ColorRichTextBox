@@ -57,8 +57,8 @@ namespace ColorRichTextBox
          _richTextBox.AppendText(_text);
          // Прокручивает содержимое элемента управления до текущей позиции курсора
          _richTextBox.ScrollToCaret();
-         // Возобновляет обычную логику макета
-         _richTextBox.ResumeLayout();
+         //// Возобновляет обычную логику макета
+         //_richTextBox.ResumeLayout();
       }
 
       // Метод, добавляет текст заданного цвета и шрифта в RichTextBox
