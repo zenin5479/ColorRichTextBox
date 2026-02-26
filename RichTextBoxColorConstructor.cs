@@ -83,7 +83,5 @@ namespace ColorRichTextBox
          // Возобновляет обычную логику макета
          _richTextBox.ResumeLayout();
       }
-
-      // Метод, добавляет текст в RichTextBox
    }
 }
