@@ -74,11 +74,7 @@ namespace ColorRichTextBox
          constructor.TextColorConstructorThree();
       }
 
-      // Очистить RichTextBox
-      private void ButtonClear_Click(object sender, EventArgs e)
-      {
-         RichTextBoxOne.Clear();
-      }
+      
 
       // Метод изменения цвета текста RichTextBox
       private void RichTextBoxColor(string tolog, Color color)
@@ -86,6 +82,12 @@ namespace ColorRichTextBox
          RichTextBoxOne.SelectionColor = color;
          RichTextBoxOne.AppendText(tolog);
          RichTextBoxOne.ScrollToCaret();
+      }
+      
+      // Очистить RichTextBox
+      private void ButtonClear_Click(object sender, EventArgs e)
+      {
+         RichTextBoxOne.Clear();
       }
    }
 }
