@@ -24,6 +24,7 @@ namespace ColorRichTextBox
          _text = text;
       }
 
+      // Конструктор, принимающий ссылки на элементы управления
       public RichTextBoxColorConstructor(RichTextBox richTextBox)
       {
          _richTextBox = richTextBox;
