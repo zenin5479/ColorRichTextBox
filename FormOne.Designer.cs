@@ -121,7 +121,7 @@
          groupBox1.Controls.Add(ButtonTextConstructorThree);
          groupBox1.Location = new System.Drawing.Point(12, 12);
          groupBox1.Name = "groupBox1";
-         groupBox1.Size = new System.Drawing.Size(435, 58);
+         groupBox1.Size = new System.Drawing.Size(410, 58);
          groupBox1.TabIndex = 7;
          groupBox1.TabStop = false;
          groupBox1.Text = "Передача ссылок в класс на элементы управления через конструктор";
