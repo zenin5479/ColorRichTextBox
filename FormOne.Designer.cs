@@ -47,7 +47,7 @@
          // 
          RichTextBoxOne.Location = new System.Drawing.Point(12, 76);
          RichTextBoxOne.Name = "RichTextBoxOne";
-         RichTextBoxOne.Size = new System.Drawing.Size(356, 250);
+         RichTextBoxOne.Size = new System.Drawing.Size(382, 250);
          RichTextBoxOne.TabIndex = 0;
          RichTextBoxOne.Text = "";
          // 
@@ -160,7 +160,7 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(459, 426);
+         ClientSize = new System.Drawing.Size(438, 426);
          Controls.Add(groupBox1);
          Controls.Add(GroupBoxMethod);
          Controls.Add(ButtonClear);
