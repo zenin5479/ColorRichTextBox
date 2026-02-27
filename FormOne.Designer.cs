@@ -47,7 +47,7 @@
          // 
          RichTextBoxOne.Location = new System.Drawing.Point(12, 76);
          RichTextBoxOne.Name = "RichTextBoxOne";
-         RichTextBoxOne.Size = new System.Drawing.Size(382, 250);
+         RichTextBoxOne.Size = new System.Drawing.Size(379, 250);
          RichTextBoxOne.TabIndex = 0;
          RichTextBoxOne.Text = "";
          // 
