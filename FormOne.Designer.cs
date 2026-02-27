@@ -110,7 +110,7 @@
          GroupBoxMethod.Controls.Add(ButtonTextMethodThree);
          GroupBoxMethod.Location = new System.Drawing.Point(12, 332);
          GroupBoxMethod.Name = "GroupBoxMethod";
-         GroupBoxMethod.Size = new System.Drawing.Size(410, 58);
+         GroupBoxMethod.Size = new System.Drawing.Size(375, 58);
          GroupBoxMethod.TabIndex = 6;
          GroupBoxMethod.TabStop = false;
          GroupBoxMethod.Text = "Передача ссылок в класс на элементы управления через метод";
