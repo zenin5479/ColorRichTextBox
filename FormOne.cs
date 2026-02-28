@@ -87,10 +87,5 @@ namespace ColorRichTextBox
       {
          RichTextBoxOne.Clear();
       }
-
-      private void RichTextBoxOne_TextChanged(object sender, EventArgs e)
-      {
-
-      }
    }
 }

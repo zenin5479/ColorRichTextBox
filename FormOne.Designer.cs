@@ -50,7 +50,6 @@
          RichTextBoxOne.Size = new System.Drawing.Size(410, 250);
          RichTextBoxOne.TabIndex = 0;
          RichTextBoxOne.Text = "";
-         RichTextBoxOne.TextChanged += RichTextBoxOne_TextChanged;
          // 
          // ButtonTextMethodOne
          // 
